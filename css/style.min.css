@@ -942,7 +942,11 @@ section {
   }
 
   h3 img {
-    width: 100px;
+    width: 50px;
+  }
+
+  .nav-item.visible-lg {
+    display: none;
   }
 
   .navbar-transparent .navbar-collapse {
