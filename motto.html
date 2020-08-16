@@ -82,7 +82,7 @@
           </li>
           <li class="nav-item visible-lg"><span class="nav-link">|</span></li>
           <li class="nav-item">
-            <a class="nav-link" href="about.html">关于我</a>
+            <a class="nav-link" href="about.html">关于宫崎骏</a>
           </li>
           <li class="nav-item visible-lg"><span class="nav-link">|</span></li>
           <li class="nav-item">
@@ -150,17 +150,17 @@
         <div class="ct" id="t4">
           <div class="ct" id="t5">
             <ul id="menu">
-              <a href="#t1" title="动画类"><li class="icon" id="uno"><img src="./img/icons/icon1.png" alt=""></li></a>
-              <a href="#t2" title="漫画类"><li class="icon" id="dos"><img src="./img/icons/icon2.png" alt=""></li></a>
-              <a href="#t3" title="游戏类"><li class="icon" id="tres"><img src="./img/icons/icon3.png" alt=""></li></a>
-              <a href="#t4" title="文学类"><li class="icon" id="cuatro"><img src="./img/icons/icon4.png" alt=""></li></a>
-              <a href="#t5" title="添加微语"><li class="icon" id="cinco"><img src="./img/icons/add.png" alt=""></li></a>
+              <li class="icon" id="uno"><a href="#t1" title="动画类"><img src="./img/icons/icon1.png" alt=""></a></li>
+              <li class="icon" id="dos"><a href="#t2" title="漫画类"><img src="./img/icons/icon2.png" alt=""></a></li>
+              <li class="icon" id="tres"><a href="#t3" title="游戏类"><img src="./img/icons/icon3.png" alt=""></a></li>
+              <li class="icon" id="cuatro"><a href="#t4" title="文学类"><img src="./img/icons/icon4.png" alt=""></a></li>
+              <li class="icon" id="cinco"><a href="#t5" title="添加微语"><img src="./img/icons/add.png" alt=""></a></li>
             </ul>
             <div class="page" id="p1">
               <div class="page-bg"></div>
               <section class="icon">
                 <div class="title">动画类微语</div>
-                <div id="hitokoto" class="hitokoto-fullpage animated fadeIn">
+                <div id="hitokoto1" class="hitokoto-fullpage animated fadeIn">
                   <div class="bracket left">『</div>
                   <div class="word" id="hitokoto_text1">人生就是一列开往坟墓的列车, 路途上会有很多站，很难有人可以至始至终陪着走完，当陪你的人要下车时，即使不舍,也该心存感激,然后挥手道别。</div>
                   <div class="bracket right">』</div>
@@ -186,7 +186,7 @@
               <div class="page-bg"></div>
               <section class="icon">
                 <div class="title">游戏类微语</div>
-                <div id="hitokoto" class="hitokoto-fullpage animated fadeIn">
+                <div id="hitokoto2" class="hitokoto-fullpage animated fadeIn">
                   <div class="bracket left">『</div>
                   <div class="word" id="hitokoto_text3">人生就是一列开往坟墓的列车, 路途上会有很多站，很难有人可以至始至终陪着走完，当陪你的人要下车时，即使不舍,也该心存感激,然后挥手道别。</div>
                   <div class="bracket right">』</div>
@@ -199,7 +199,7 @@
               <div class="page-bg"></div>
               <section class="icon">
                 <div class="title">文学类微语</div>
-                <div id="hitokoto" class="hitokoto-fullpage animated fadeIn">
+                <div id="hitokoto3" class="hitokoto-fullpage animated fadeIn">
                   <div class="bracket left">『</div>
                   <div class="word" id="hitokoto_text4">人生就是一列开往坟墓的列车, 路途上会有很多站，很难有人可以至始至终陪着走完，当陪你的人要下车时，即使不舍,也该心存感激,然后挥手道别。</div>
                   <div class="bracket right">』</div>
@@ -212,7 +212,7 @@
               <div class="page-bg"></div>
               <section class="icon">
                 <div class="title">添加微语</div>
-                <div id="hitokoto" class="hitokoto-fullpage animated fadeIn">
+                <div id="hitokoto4" class="hitokoto-fullpage animated fadeIn">
                   <div class="row form">
                     <!-- Contact Form Holder -->
                     <div class="col-md-8 offset-md-2 contact-form-holder mt-4" data-aos="fade-up">
@@ -330,14 +330,14 @@
           hitokoto_text.innerText = data.hitokoto;
           hitokoto_author.innerText = "——" + data.from;
         }
-      }
+      };
       xhr.send();
     }
-    getMotto()
+    getMotto();
 
     setInterval(function() {
         getMotto()
-      }, 5000)
+      }, 5000);
 
     // ===============================================
     // loading
