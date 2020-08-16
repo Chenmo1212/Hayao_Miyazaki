@@ -1127,13 +1127,19 @@ body.is-loading-2 #viewer .slide {
   line-height: 1.25;
   margin-bottom: 0.5em;
 }
-.watch-movie {
+.watch-btn {
   float: right;
   padding: 5px 10px;
   border: 1px solid #fff;
   border-radius: 10px;
   color: #fff;
   margin-left: 10px;
+}
+.watch-pic {
+  cursor: pointer;
+}
+.watch-pic:hover {
+  color: #00D3B7;
 }
 
 @media screen and (max-width: 1280px) {
