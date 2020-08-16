@@ -1,0 +1,493 @@
+
+.content {
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 1000px;
+}
+
+.heading {
+  width: 100%;
+  margin-left: 1rem;
+  font-weight: 900;
+  font-size: 1.618rem;
+  text-transform: uppercase;
+  letter-spacing: .1ch;
+  line-height: 1;
+  padding-bottom: .5em;
+  margin-bottom: 1rem;
+  position: relative;
+}
+
+.heading:after {
+  display: block;
+  content: '';
+  position: absolute;
+  width: 60px;
+  height: 4px;
+  background: linear-gradient(135deg, #1a9be6, #1a57e6);
+  bottom: 0;
+}
+
+.description {
+  width: 100%;
+  margin-top: 0;
+  margin-left: 1rem;
+  margin-bottom: 3rem;
+}
+
+.item-card {
+  color: inherit;
+  cursor: pointer;
+  width: calc(33% - 2rem);
+  min-width: calc(33% - 2rem);
+  height: 400px;
+  min-height: 400px;
+  perspective: 1000px;
+  margin: 1rem;
+  position: relative;
+}
+
+@media screen and (max-width: 800px) {
+  .item-card {
+    width: calc(50% - 2rem);
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .item-card {
+    width: 100%;
+  }
+}
+
+.front,
+.back {
+  display: flex;
+  border-radius: 6px;
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  transform-style: preserve-3d;
+  transition: ease-in-out 600ms;
+}
+
+.front {
+  background-size: cover;
+  padding: 2rem;
+  font-size: 1.618rem;
+  font-weight: 600;
+  color: #fff;
+  overflow: hidden;
+  font-family: Poppins, sans-serif;
+}
+
+.front:before {
+  position: absolute;
+  display: block;
+  content: '';
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(135deg, #1a9be6, #1a57e6);
+  opacity: .25;
+  z-index: -1;
+}
+
+.item-card:hover .front {
+  transform: rotateY(180deg);
+}
+
+.item-card:nth-child(even):hover .front {
+  transform: rotateY(-180deg);
+}
+
+.back {
+  background: #fff;
+  transform: rotateY(-180deg);
+  padding: 0 2em;
+}
+
+.item-card:hover .back {
+  transform: rotateY(0deg);
+}
+
+.item-card:nth-child(even) .back {
+  transform: rotateY(180deg);
+}
+
+.item-card:nth-child(even):hover .back {
+  transform: rotateY(0deg);
+}
+
+.button.submit {
+  transform: translateZ(40px);
+  cursor: pointer;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  font-weight: bold;
+  color: #fff;
+  padding: .5em 1em;
+  border-radius: 100px;
+  font: inherit;
+  background: linear-gradient(135deg, #1a9be6, #1a57e6);
+  border: none;
+  position: relative;
+  transform-style: preserve-3d;
+  transition: 300ms ease;
+}
+
+.button:before {
+  transition: 300ms ease;
+  position: absolute;
+  display: block;
+  content: '';
+  transform: translateZ(-40px);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  height: calc(100% - 20px);
+  width: calc(100% - 20px);
+  border-radius: 100px;
+  left: 10px;
+  top: 16px;
+  box-shadow: 0 0 10px 10px rgba(26, 87, 230, 0.25);
+  background-color: rgba(26, 87, 230, 0.25);
+}
+
+.button:hover {
+  transform: translateZ(55px);
+}
+
+.button:hover:before {
+  transform: translateZ(-55px);
+}
+
+.button:active {
+  transform: translateZ(20px);
+}
+
+.button:active:before {
+  transform: translateZ(-20px);
+  top: 12px;
+}
+/*
+ | ------------------------------------------
+ |  popup
+ | ------------------------------------------
+ */
+ /* ---------------------弹窗样式 -------------------*/
+
+ /* ---------------------公共样式 -------------------*/
+
+ .none{
+     display: none;
+ }
+
+ .layout-root{
+     position: fixed;
+     background: #E74C3C;
+     height: 100%;
+     width: 100%;
+     z-index: 1000;
+     top: 0;
+     left: 0;
+ }
+
+ .layout-content{
+     line-height: 44px;
+     font-weight: 300;
+     font-size: 1em;
+     color: #fff;
+     text-indent: 10px;
+ }
+
+ .layout-content .code{
+     line-height: 22px;
+     text-align: center;
+ }
+
+ p {
+     display: block;
+     -webkit-margin-before: 1em;
+     -webkit-margin-after: 1em;
+     -webkit-margin-start: 0px;
+     -webkit-margin-end: 0px;
+ }
+
+ a, button{
+     outline: none;
+ }
+
+ .close-btn {
+     border: none;
+     padding: 0.6em 1.2em;
+     background: linear-gradient(135deg, #1a9be6, #1a57e6);
+     color: #fff;
+     font-size: 1em;
+     cursor: pointer;
+     display: block;
+     margin: 3px auto;
+     border-radius: 2px;
+ }
+
+ button:hover, button:active, button:focus{
+     border: none;
+ }
+ .dialog-face{
+     position: fixed;
+     background: rgba(0,0,0,0.3);
+     height: 100%;
+     width: 100%;
+     z-index: 1000;
+     top: 0;
+     left: 0;
+
+     -webkit-animation-duration: 500ms;
+     -moz-animation-duration:500ms;
+     -o-animation-duration:500ms;
+     animation-duration: 500ms;
+ }
+
+ .dialog-face.slipBottom[opacity="0"]{
+     display: none;
+ }
+
+ .dialog-face.slipUp{
+     opacity: 0.7;
+     -webkit-animation-name: dialogFaceSlipToUp;
+     -moz-animation-name: dialogFaceSlipToUp;
+     -o-animation-name: dialogFaceSlipToUp;
+     animation-name: dialogFaceSlipToUp;
+ }
+
+ .dialog-face.slipBottom{
+     opacity: 0;
+     visibility: hidden;
+     -webkit-animation-name: dialogFaceSlipToBottom;
+     -moz-animation-name: dialogFaceSlipToBottom;
+     -o-animation-name: dialogFaceSlipToBottom;
+     animation-name: dialogFaceSlipToBottom;
+ }
+
+ .dialog-root{
+     position: fixed;
+     z-index: 2000;
+     left: 50%;
+
+     -webkit-animation-duration: 500ms;
+     -moz-animation-duration: 500ms;
+     -o-animation-duration: 500ms;
+     animation-duration: 500ms;
+     -webkit-perspective: 1300px;
+     -moz-perspective: 1300px;
+     perspective: 1300px;
+ }
+
+ .dialog-root.slipUp{
+     top: 50%;
+     opacity: 1;
+
+     -webkit-animation-name: dialogSlipToUp;
+     -moz-animation-name: dialogSlipToUp;
+     -o-animation-name: dialogSlipToUp;
+     animation-name: dialogSlipToUp;
+     -webkit-transform: translate(-50%, -50%);
+     -o-transform: translate(-50%, -50%);
+     -moz-transform: translate(-50%, -50%);
+     -ms-transform: translate(-50%, -50%);
+     transform: translate(-50%, -50%);
+ }
+
+ .dialog-root.slipBottom{
+     top: 100%;
+     opacity: 0.3;
+     -webkit-animation-duration: 500ms;
+     -moz-animation-duration: 500ms;
+     -o-animation-duration: 500ms;
+     animation-duration: 500ms;
+     -webkit-animation-name: dialogSlipToBottom;
+     -moz-animation-name: dialogSlipToBottom;
+     -o-animation-name: dialogSlipToBottom;
+     animation-name: dialogSlipToBottom;
+     -webkit-transform: translate(-50%, 0);
+     -o-transform: translate(-50%, 0);
+     -moz-transform: translate(-50%, 0);
+     -ms-transform: translate(-50%, 0);
+     transform: translate(-50%, 0);
+ }
+
+ .dialog-wrapper{
+     background: #fff;
+     width: 635px;
+     height: 375px;
+     overflow: hidden;
+     -webkit-border-radius: 5px;
+     -moz-border-radius: 5px;
+     border-radius: 5px;
+
+     -webkit-animation-duration: 500ms;
+     -moz-animation-duration: 500ms;
+     -o-animation-duration: 500ms;
+     animation-duration: 500ms;
+     -webkit-transform-origin: 50% 100%;
+     -moz-transform-origin: 50% 100%;
+     -ms-transform-origin: 50% 100%;
+     -o-transform-origin:50% 100%;
+     transform-origin: 50% 100%;
+ }
+
+ .dialog-wrapper.slipUp{
+     -webkit-transform: rotateX(0deg);
+     -moz-transform: rotateX(0deg);
+     -ms-transform: rotateX(0deg);
+     -o-transform: rotateX(0deg);
+     transform: rotateX(0deg);
+     -webkit-animation-name: contentSlipToUp;
+     -moz-animation-name: contentSlipToUp;
+     -o-animation-name: contentSlipToUp;
+     animation-name: contentSlipToUp;
+ }
+
+ .dialog-wrapper.slipBottom{
+     -webkit-transform: rotateX(90deg);
+     -moz-transform: rotateX(90deg);
+     -ms-transform: rotateX(90deg);
+     -o-transform: rotateX(90deg);
+     transform: rotateX(90deg);
+     -webkit-animation-name: contentSlipToBottom;
+     -moz-animation-name: contentSlipToBottom;
+     -o-animation-name: contentSlipToBottom;
+     animation-name: contentSlipToBottom;
+ }
+
+ .dialog-header{
+     height: 75px;
+     background: linear-gradient(135deg, #1a9be6, #1a57e6);
+     text-align: center;
+ }
+
+ .dialog-header span{
+     font-size: 28px;
+     line-height: 75px;
+     color:#fff;
+ }
+
+ .dialog-content{
+     font-weight: 300;
+     font-size: 1.15em;
+     color: #000;
+     padding: 15px 40px 0 40px;
+     margin: 0;
+ }
+
+
+ .dialog-content p{
+     margin: 0;
+     padding: 10px 0;
+ }
+
+ .dialog-footer{
+ }
+ /* ---------------------动画关键帧 -------------------*/
+
+ @keyframes dialogFaceSlipToUp  {
+     0%{
+        opacity: 0;
+     }
+     100%{
+         opacity: 0.7;
+     }
+ }
+
+ @keyframes dialogFaceSlipToBottom {
+     0%{
+         opacity: 0.7;
+         visibility:visible;
+     }
+     100%{
+         visibility: hidden;
+         opacity: 0;
+     }
+ }
+
+ @keyframes dialogSlipToUp  {
+     0%{
+         top: 100%;
+         opacity: 0.3;
+     }
+     100%{
+         top: 50%;
+         opacity: 1;
+     }
+ }
+
+ @keyframes dialogSlipToBottom  {
+     0%{
+         top: 50%;
+         opacity: 1;
+         -webkit-transform: translate(-50%, -50%);
+         -moz-transform: translate(-50%, -50%);
+         -ms-transform: translate(-50%, -50%);
+         -o-transform: translate(-50%, -50%);
+         transform: translate(-50%, -50%);
+     }
+     100%{
+         top: 100%;
+         opacity: 0.3;
+         -webkit-transform: translate(-50%, 0);
+         -moz-transform: translate(-50%, 0);
+         -ms-transform: translate(-50%, 0);
+         -o-transform: translate(-50%, 0);
+         transform: translate(-50%, 0);
+     }
+ }
+
+ @keyframes contentSlipToUp  {
+     0%{
+         -webkit-transform: rotateX(90deg);
+         -moz-transform: rotateX(90deg);
+         -ms-transform: rotateX(90deg);
+         -o-transform: rotateX(90deg);
+         transform: rotateX(90deg);
+     }
+     100%{
+         -webkit-transform: rotateX(0deg);
+         -moz-transform: rotateX(0deg);
+         -ms-transform: rotateX(0deg);
+         -o-transform: rotateX(0deg);
+         transform: rotateX(0deg);
+     }
+ }
+
+ @keyframes contentSlipToBottom  {
+     0%{
+         -webkit-transform: rotateX(0deg);
+         -moz-transform: rotateX(0deg);
+         -ms-transform: rotateX(0deg);
+         -o-transform: rotateX(0deg);
+         transform: rotateX(0deg);
+     }
+     60%{
+         -webkit-transform: rotateX(60deg);
+         -moz-transform: rotateX(60deg);
+         -ms-transform: rotateX(60deg);
+         -o-transform: rotateX(60deg);
+         transform: rotateX(60deg);
+     }
+     100%{
+         -webkit-transform: rotateX(90deg);
+         -moz-transform: rotateX(90deg);
+         -ms-transform: rotateX(90deg);
+         -o-transform: rotateX(90deg);
+         transform: rotateX(90deg);
+     }
+ }
