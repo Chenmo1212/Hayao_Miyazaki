@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>宫崎骏热门电影</title>
+    <meta name="description" content="Roxy">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Fonts -->
+    <link rel="stylesheet" href="css/icon-font.css">
+    <!--<link href="https://fonts.googleapis.com/css?family=Lato:300,400|Work+Sans:300,400,700" rel="stylesheet">-->
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="vendor/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.min.css">
+    <link rel="stylesheet" href="css/video/video_detail.css">
+
+    <!-- Modernizr JS for IE8 support of HTML5 elements and media queries -->
+    <script src="js/modernizr.js"></script>
+</head>
+
+<body data-spy="scroll" data-target="#navbar" class="static-layout" style="background-color: rgb(236, 240, 249);">
+<div class="container">
+    <div class="title">
+        <div class="return">
+            <a href="./video.html">
+                <img src="./img/video_detail/return.png" alt="" style="width: 40px;">
+            </a>
+        </div>
+        <h2 class="heading" id="heading">Custom HTML5 Video Player with Ckins...</h2>
+    </div>
+    <video poster="" src="" data-ckin="default" data-overlay="1" id="video"></video>
+</div>
+
+<script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+<script type="text/javascript" src="./js/video.js"></script>
+<script>
+    function my$(id) {
+        return document.getElementById(id);
+    }
+
+    const video = my$("video");
+    const heading = my$("heading");
+
+    let video_src = './img/video_detail/ckin.mp4';
+    let video_poster = './img/video_detail/ckin.jpg';
+
+    video.src = video_src;
+    video.poster = video_poster;
+    heading.innerHTML = "哈尔的移动城堡"
+</script>
+</body>
+
+</html>

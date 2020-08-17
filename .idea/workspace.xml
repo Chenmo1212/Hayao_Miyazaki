@@ -1,12 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0a2a7922-752a-48ad-8738-4d44ff8f1b76" name="默认更改列表" comment="">
-      <change afterPath="$PROJECT_DIR$/css/video.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/video.html" afterDir="false" />
+    <list default="true" id="0a2a7922-752a-48ad-8738-4d44ff8f1b76" name="默认更改列表" comment="video-detail">
+      <change afterPath="$PROJECT_DIR$/css/video/fonts/ckin.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/video/fonts/ckin.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/video/fonts/ckin.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/video/video_detail.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/video.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video_detail.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/bootstrap/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/bootstrap/bootstrap.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/video.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/video/video.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/video.html" beforeDir="false" afterPath="$PROJECT_DIR$/video.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -18,30 +22,25 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5045872">
+    <splitter split-orientation="horizontal" split-proportion="0.57667106">
       <split-first>
         <leaf>
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="348">
-                  <caret line="205" column="79" lean-forward="true" selection-start-line="205" selection-start-column="79" selection-end-line="206" selection-end-column="62" />
+                <state relative-caret-position="514">
+                  <caret line="835" column="32" lean-forward="true" selection-start-line="835" selection-start-column="32" selection-end-line="836" selection-end-column="71" />
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/video.html">
+            <entry file="file://$PROJECT_DIR$/video_detail.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="49">
-                  <caret line="345" column="22" selection-start-line="345" selection-start-column="22" selection-end-line="345" selection-end-column="22" />
+                <state relative-caret-position="285">
+                  <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
                   <folding>
-                    <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -86,16 +85,42 @@
             <entry file="file://$PROJECT_DIR$/css/main.css">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="244">
-                  <caret line="1143" lean-forward="true" selection-start-line="1143" selection-end-line="1143" />
+                  <caret line="1143" selection-start-line="1143" selection-end-line="1143" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/css/video/video_detail.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="221">
+                  <caret line="410" column="28" lean-forward="true" selection-start-line="410" selection-start-column="28" selection-end-line="410" selection-end-column="28" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/js/video.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="193">
+                  <caret line="110" column="32" selection-start-line="110" selection-start-column="32" selection-end-line="110" selection-end-column="32" />
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/css/video.css">
+            <entry file="file://$PROJECT_DIR$/video.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="420">
-                  <caret line="55" column="18" lean-forward="true" selection-start-line="55" selection-start-column="18" selection-end-line="55" selection-end-column="18" />
+                <state relative-caret-position="146">
+                  <caret line="359" column="33" selection-start-line="359" selection-start-column="33" selection-end-line="359" selection-end-column="33" />
+                  <folding>
+                    <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+                    <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -114,7 +139,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>幽灵</find>
       <find>千</find>
       <find>猫</find>
       <find>哈尔</find>
@@ -144,6 +168,7 @@
       <find>lnr</find>
       <find>&lt;a class=&quot;fb-touch&quot; href=&quot;#&quot;&gt;&lt;/a&gt;</find>
       <find>container</find>
+      <find>width: 0%;</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -160,6 +185,8 @@
       <replace>()</replace>
       <replace>let</replace>
       <replace>&lt;a class=&quot;fb-touch&quot; href=&quot;#&quot;&gt;&lt;span class=&quot;lnr lnr-move&quot;&gt;&lt;/span&gt;&lt;/a&gt;</replace>
+      <replace>width: %</replace>
+      <replace>width: 0;</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -191,8 +218,12 @@
         <option value="$PROJECT_DIR$/css/main.css" />
         <option value="$PROJECT_DIR$/css/icon-font.css" />
         <option value="$PROJECT_DIR$/css/video.css" />
-        <option value="$PROJECT_DIR$/video.html" />
         <option value="$PROJECT_DIR$/vendor/bootstrap/bootstrap.min.css" />
+        <option value="$PROJECT_DIR$/js/video.js" />
+        <option value="$PROJECT_DIR$/css/video_detail.css" />
+        <option value="$PROJECT_DIR$/video_detail.html" />
+        <option value="$PROJECT_DIR$/css/video/video_detail.css" />
+        <option value="$PROJECT_DIR$/video.html" />
       </list>
     </option>
   </component>
@@ -216,6 +247,11 @@
               <item name="00 宫崎骏" type="b2602c69:ProjectViewProjectNode" />
               <item name="00 宫崎骏" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="00 宫崎骏" type="b2602c69:ProjectViewProjectNode" />
+              <item name="00 宫崎骏" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -231,7 +267,12 @@
     <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\学习\03 大三\0302 大三下\024 商务网站设计\09 宫崎骏\宫崎骏\00 宫崎骏\css\video" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\学习\03 大三\0302 大三下\024 商务网站设计\09 宫崎骏\宫崎骏\00 宫崎骏\css\video" />
+      <recent name="F:\学习\03 大三\0302 大三下\024 商务网站设计\09 宫崎骏\宫崎骏\00 宫崎骏\js" />
       <recent name="F:\学习\03 大三\0302 大三下\024 商务网站设计\09 宫崎骏\宫崎骏\00 宫崎骏" />
     </key>
   </component>
@@ -257,7 +298,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1597556937079</updated>
-      <workItem from="1597556940113" duration="22580000" />
+      <workItem from="1597556940113" duration="24825000" />
     </task>
     <task id="LOCAL-00001" summary="logo">
       <created>1597560186217</created>
@@ -294,24 +335,31 @@
       <option name="project" value="LOCAL" />
       <updated>1597578121220</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="video">
+      <created>1597634860392</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1597634860392</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22580000" />
+    <option name="totallyTimeSpent" value="24825000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="22" width="1936" height="1066" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13432837" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13432837" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" weight="0.32905984" />
+      <window_info active="true" anchor="bottom" id="Messages" visible="true" weight="0.32905984" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -333,7 +381,9 @@
     <MESSAGE value="work" />
     <MESSAGE value="detail btn" />
     <MESSAGE value="work_detail" />
-    <option name="LAST_COMMIT_MESSAGE" value="work_detail" />
+    <MESSAGE value="video" />
+    <MESSAGE value="video-detail" />
+    <option name="LAST_COMMIT_MESSAGE" value="video-detail" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/js/jquery-1.8.3.min.js">
@@ -493,13 +543,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="1143" lean-forward="true" selection-start-line="1143" selection-end-line="1143" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/shop.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -514,20 +557,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="205" column="79" lean-forward="true" selection-start-line="205" selection-start-column="79" selection-end-line="206" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/video.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="55" column="18" lean-forward="true" selection-start-line="55" selection-start-column="18" selection-end-line="55" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vendor/bootstrap/bootstrap.min.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
@@ -535,10 +564,55 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/css/video/video.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="40" selection-start-line="40" selection-end-line="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="1143" selection-start-line="1143" selection-end-line="1143" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="514">
+          <caret line="835" column="32" lean-forward="true" selection-start-line="835" selection-start-column="32" selection-end-line="836" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/video_detail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/video/video_detail.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="410" column="28" lean-forward="true" selection-start-line="410" selection-start-column="28" selection-end-line="410" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/video.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="110" column="32" selection-start-line="110" selection-start-column="32" selection-end-line="110" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/video.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="49">
-          <caret line="345" column="22" selection-start-line="345" selection-start-column="22" selection-end-line="345" selection-end-column="22" />
+        <state relative-caret-position="146">
+          <caret line="359" column="33" selection-start-line="359" selection-start-column="33" selection-end-line="359" selection-end-column="33" />
           <folding>
             <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />

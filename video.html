@@ -15,7 +15,7 @@
     <!-- CSS -->
     <link rel="stylesheet" href="vendor/bootstrap/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.min.css">
-    <link rel="stylesheet" href="css/video.css">
+    <link rel="stylesheet" href="css/video/video.css">
 
     <!-- Modernizr JS for IE8 support of HTML5 elements and media queries -->
     <script src="js/modernizr.js"></script>
@@ -407,19 +407,7 @@
 <!-- Main JS -->
 <script src="js/app.min.js "></script>
 <script type="text/javascript">
-    function toggleDialog(show){
-        var animationClass = show ? "slipUp" : "slipBottom";
-        var animation = function(){
-            var ele = document.getElementById("dialog-face");
-            ele.className = "dialog-face " + animationClass;
-            ele = document.getElementById("dialog");
-            ele.className = "dialog-root " + animationClass;
-            ele = document.getElementById("dialog-wrapper");
-            ele.className = "dialog-wrapper " + animationClass;
-        };
 
-        setTimeout(animation, 100);
-    }
 </script>
 </body>
 
