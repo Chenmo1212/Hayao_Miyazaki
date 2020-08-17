@@ -31,25 +31,97 @@
         </div>
         <h2 class="heading" id="heading">Custom HTML5 Video Player with Ckins...</h2>
     </div>
+    <!--<div id="control-group" class="control-group">-->
+        <!--<div class="current">00:00</div>-->
+        <!--<div class="totalTime">00:00</div>-->
+    <!--</div>-->
     <video poster="" src="" data-ckin="default" data-overlay="1" id="video"></video>
 </div>
 
 <script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
 <script type="text/javascript" src="./js/video.js"></script>
+<script type="text/javascript" src="./js/data.js"></script>
 <script>
     function my$(id) {
         return document.getElementById(id);
     }
 
+    //讲当前秒数转换为时间
+    function getTimeBySecond(second) {
+        let hour = parseInt(second / (60 * 60));
+        let minute = parseInt((second / 60) % 60);
+        let newSecond = parseInt(second % 60);
+        return (hour < 10 ? "0" + hour : hour) + ":" + (minute < 10 ? "0" + minute : minute) + ":" + (newSecond < 10 ? "0" + newSecond : newSecond);
+    }
+
+    // 获取数据
+    // console.log(videoMsg);
+
+    // 获取路由参数
+    let url = decodeURI(window.location.href);
+    let argsIndex = url.split("?name=");
+    let arg = argsIndex[1];
+    // console.log(arg);
+
     const video = my$("video");
     const heading = my$("heading");
 
-    let video_src = './img/video_detail/ckin.mp4';
-    let video_poster = './img/video_detail/ckin.jpg';
+    // 新建临时数组存放数据
+    let dataObj = {};
+    for (let i = 0; i < videoMsg.length; i++) {
+        if (arg === videoMsg[i].title) {
+            dataObj = videoMsg[i];
+        }
+    }
+
+    let video_src = '../01 热门电影合集/[' + dataObj.year + "年] " + dataObj.title + '/' + dataObj.year + " " + dataObj.title + ".mp4";
+    let video_poster = './img/video/' + dataObj.title + '.jpg';
 
     video.src = video_src;
     video.poster = video_poster;
-    heading.innerHTML = "哈尔的移动城堡"
+    heading.innerHTML = dataObj.title;
+
+    //更新播放进度
+    video.addEventListener("timeupdate", function () {
+        //显示当前播放进度的时间
+        document.querySelector(".current").innerText = getTimeBySecond(video.currentTime);
+    });
+
+    //当视频元数据加载时运行
+    video.addEventListener("loadedmetadata", function () {
+        //设置总时长
+        document.querySelector(".totalTime").innerText = getTimeBySecond(video.duration);
+    });
+
+    //js  快退
+    $(document).keydown(function (event) {
+        if (event.keyCode === 37) {
+            console.log("左方向键");
+            if (video.currentTime > 5) {
+                video.currentTime -= 5;
+            } else {
+                video.currentTime = 0;
+            }
+            document.querySelector(".current").innerText = getTimeBySecond(video.currentTime);
+        }
+        if (event.keyCode === 39) {
+            console.log("右方向键");
+            if (video.currentTime < video.duration - 5) {
+                video.currentTime += 5;
+            } else {
+                video.currentTime = video.duration;
+            }
+            document.querySelector(".current").innerText = getTimeBySecond(video.currentTime);
+        }
+        if (event.keyCode === 32) {
+            console.log("空格");
+            if (video.paused) {
+                video.play();
+            } else {
+                video.pause();
+            }
+        }
+    });
 </script>
 </body>
 

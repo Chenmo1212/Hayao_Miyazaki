@@ -579,7 +579,9 @@ video::-webkit-media-controls-enclosure {
     display: none !important;
 }
 
-
+.container {
+    position: relative;
+}
 .container .title {
     display: flex;
     justify-content: space-between;
@@ -594,4 +596,31 @@ video::-webkit-media-controls-enclosure {
     display: flex;
     align-items: center;
     font-size: 20px;
+}
+
+.container .current {
+    position: absolute;
+    bottom: 45px;
+    left: 20px;
+    z-index: 9999;
+    font-size: 16px;
+    color: #fff;
+}
+
+.container .totalTime {
+    position: absolute;
+    bottom: 45px;
+    right: 20px;
+    z-index: 9999;
+    font-size: 16px;
+    color: #fff;
+}
+
+.control-group.is-playing {
+    opacity: 1;
+    transition: 0.3s;
+}
+.default.is-playing:hover {
+    opacity: 1;
+    transition: 0.3s;
 }
