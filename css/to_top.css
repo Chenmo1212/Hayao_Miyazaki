@@ -1,0 +1,65 @@
+
+.cd-top {
+    display: inline-block;
+    height: 130px;
+    width: 40px;
+    position: fixed;
+    bottom: 40px;
+    right: 10px;
+    /* image replacement properties */
+    overflow: hidden;
+    text-indent: 100%;
+    white-space: nowrap;
+    background: transparent url(../img/icons/rocket_up.png) no-repeat -34px -10px;
+    background-size: 1300%;
+    visibility: hidden;
+    opacity: 0;
+    -webkit-transition: opacity .3s 0s, visibility 0s .3s;
+    -moz-transition: opacity .3s 0s, visibility 0s .3s;
+    transition: opacity .3s 0s, visibility 0s .3s;
+}
+
+.cd-top.cd-is-visible, .cd-top.cd-fade-out, .no-touch .cd-top:hover {
+    -webkit-transition: opacity .3s 0s, visibility 0s 0s;
+    -moz-transition: opacity .3s 0s, visibility 0s 0s;
+    transition: opacity .3s 0s, visibility 0s 0s;
+}
+
+.cd-top.cd-is-visible {
+    /* the button becomes visible */
+    visibility: visible;
+    opacity: 1;
+}
+
+.cd-top.cd-fade-out {
+    /* if the user keeps scrolling down, the button is out of focus and becomes less visible */
+    opacity: .5;
+}
+
+.no-touch .cd-top:hover {
+    opacity: 1;
+    background: transparent url(../img/icons/rocket_up.png) no-repeat -164px -10px;
+    background-size: 1300%;
+}
+
+.cd-top.show-fire {
+    opacity: 1;
+    background: transparent url(../img/icons/rocket_up.png) no-repeat -294px -10px;
+    background-size: 1300%;
+}
+
+@media only screen and (min-width: 768px) {
+    .cd-top {
+        right: 20px;
+        bottom: 20px;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .cd-top {
+        height: 130px;
+        width: 60px;
+        right: 30px;
+        bottom: 30px;
+    }
+}
