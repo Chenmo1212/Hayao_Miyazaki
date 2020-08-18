@@ -1134,12 +1134,11 @@ body.is-loading-2 #viewer .slide {
   border-radius: 10px;
   color: #fff;
   margin-left: 10px;
-}
-.watch-pic {
   cursor: pointer;
 }
-.watch-pic:hover {
-  color: #00D3B7;
+
+.watch-btn:hover {
+  color: #333399;
 }
 
 @media screen and (max-width: 1280px) {

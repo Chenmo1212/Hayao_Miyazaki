@@ -1,0 +1,26 @@
+.film-article .content-tit {
+    line-height: 40px;
+    font-size: 1.6rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+.return {
+    float: left;
+}
+
+.album-cover {
+    float: right;
+}
+
+.alignright {
+    float: right;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto;
+}
+p {
+    /*clear: both;*/
+    line-height: 1.8;
+}
