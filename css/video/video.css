@@ -105,7 +105,7 @@ p {
 }
 
 .effect-3 .member-image {
-    border-bottom: 5px solid #e5642b;
+    border-bottom: 5px solid #333399;
     transition: 0.4s;
     height: 212px;
     width: 100%;
@@ -124,7 +124,7 @@ p {
 }
 
 .effect-3 .social-touch {
-    background-color: #e5642b;
+    background-color: #333399;
     float: left;
     left: 0;
     bottom: 0;
