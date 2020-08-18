@@ -24,3 +24,20 @@ p {
     /*clear: both;*/
     line-height: 1.8;
 }
+
+.para a {
+    color: #1a57e6;
+}
+
+table th, table td {
+    padding: 2px 10px;
+    font-size: 14px;
+    line-height: 22px;
+    height: 22px;
+    border: 1px solid #e6e6e6;
+}
+caption {
+    caption-side: top;
+    text-align: center;
+    font-weight: 700;
+}

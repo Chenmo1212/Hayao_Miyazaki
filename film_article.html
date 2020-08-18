@@ -164,7 +164,7 @@
                 <div class="col-lg-8 offset-lg-2 col-sm-10 offset-sm-1">
                     <div class="content-hd pb-4">
                         <div class="return">
-                            <a href="./index.html">
+                            <a href="javascript:history.go(-1)">
                                 <img src="./img/icons/return_black.png" style="width: 40px;" alt="">
                             </a>
                         </div>
@@ -174,9 +174,7 @@
                     <div class="content-bd">
                         <img class="float-left content-cover" style="max-width: 320px;" src="img/blog-detail/12.jpg"
                              alt="">
-                        <div class="entry">
-
-                        </div>
+                        <div class="entry" style="background-image: none;"></div>
                     </div>
                     <!-- End of Contact Form Holder -->
                 </div>
@@ -296,7 +294,6 @@
     // 新建临时数组存放数据
     let content = "";
     for (let i = 0; i < articleMsg.length; i++) {
-        console.log(articleMsg[i].title);
         if (arg === articleMsg[i].title) {
             content = articleMsg[i].content;
         }

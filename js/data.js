@@ -3803,21 +3803,444 @@ const articleMsg = [
             '                            <ol>\n' +
             '                                <li><font class="Apple-style-span">松崎海在书桌上阅读的书籍为罗杰·马丁·杜·加尔的《蒂博一家》（Les Thibault）。</font>\n' +
             '                                </li>\n' +
-            '                                <li><span style="color: rgb(0, 0, 0);"><font class="Apple-style-span">社团大楼里断断续续出现的背景声音为辩论社社长发表斋藤隆夫在1928年的演讲“正しき者に勝利あり”、以及斯波贞吉的“現代の青年は何処へ行く”。</font></span>\n' +
+            '                                <li><span style="color: rgb(0, 0, 0);"><span class="Apple-style-span">社团大楼里断断续续出现的背景声音为辩论社社长发表斋藤隆夫在1928年的演讲“正しき者に勝利あり”、以及斯波贞吉的“現代の青年は何処へ行く”。</span></span>\n' +
             '                                </li>\n' +
-            '                                <li><span style="color: rgb(0, 0, 0);"><font class="Apple-style-span">在哲学部后登场的现代诗研究社两名社员，所朗诵的为宫泽贤治的《生徒諸君に寄せる》。</font></span>\n' +
+            '                                <li><span style="color: rgb(0, 0, 0);"><span class="Apple-style-span">在哲学部后登场的现代诗研究社两名社员，所朗诵的为宫泽贤治的《生徒諸君に寄せる》。</span></span>\n' +
             '                                </li>\n' +
-            '                                <li><span style="color: rgb(0, 0, 0);"><font class="Apple-style-span">松崎海初到文艺部时；水沼拿着物理考前猜题问她“你的物理老师是不是铃木？”（君は二年だろ，物理はゲタ？）中，「ゲタ」（下驮）为本片制作人铃木敏夫的绰号，因他在吉卜力工作室里都是穿着下驮模样的履鞋“雪駄”四处走动。另外物理考前猜题纸张的右上方也有一个铃木敏夫的似颜绘。</font></span>\n' +
+            '                                <li><span style="color: rgb(0, 0, 0);"><span class="Apple-style-span">松崎海初到文艺部时；水沼拿着物理考前猜题问她“你的物理老师是不是铃木？”（君は二年だろ，物理はゲタ？）中，「ゲタ」（下驮）为本片制作人铃木敏夫的绰号，因他在吉卜力工作室里都是穿着下驮模样的履鞋“雪駄”四处走动。另外物理考前猜题纸张的右上方也有一个铃木敏夫的似颜绘。</span></span>\n' +
             '                                </li>\n' +
-            '                                <li><span style="color: rgb(0, 0, 0);"><font class="Apple-style-span">广小路幸子绘画作品的造型范本来自翁贝托·薄邱尼的《城市的兴起》（La Città Che Sale）</font></span>\n' +
+            '                                <li><span style="color: rgb(0, 0, 0);"><span class="Apple-style-span">广小路幸子绘画作品的造型范本来自翁贝托·薄邱尼的《城市的兴起》（La Città Che Sale）</span></span>\n' +
             '                                </li>\n' +
-            '                                <li><span style="color: rgb(0, 0, 0);"><font class="Apple-style-span">松崎海的父亲相片上的签名是由制作人铃木敏夫所书写。</font></span>\n' +
+            '                                <li><span style="color: rgb(0, 0, 0);"><span class="Apple-style-span">松崎海的父亲相片上的签名是由制作人铃木敏夫所书写。</span></span>\n' +
             '                                </li>\n' +
-            '                                <li><span style="color: rgb(0, 0, 0);"><font class="Apple-style-span">风间、水沼、松崎海三人在德丸大楼里的椅子上等待社长时，有几名路过聊著天的职员说“当然是前田的饼干点心啰”（あたり前田のクラッカー）为1962年藤田诚替前田糖果公司拍摄的广告一句台词“我能够那么厉害，就是因为吃了前田的饼干”（俺がこんなに強いのも、あたり前田のクラッカー）。</font></span>\n' +
+            '                                <li><span style="color: rgb(0, 0, 0);"><span class="Apple-style-span">风间、水沼、松崎海三人在德丸大楼里的椅子上等待社长时，有几名路过聊著天的职员说“当然是前田的饼干点心啰”（あたり前田のクラッカー）为1962年藤田诚替前田糖果公司拍摄的广告一句台词“我能够那么厉害，就是因为吃了前田的饼干”（俺がこんなに強いのも、あたり前田のクラッカー）。</span></span>\n' +
             '                                </li>\n' +
             '                                <li><span style="color: rgb(0, 0, 0);"><font class="Apple-style-span">风间与松崎海跳上小野寺善雄的货船后，在船上操控室外头有一个写着“Ghibli”的红底黄字标签。</font></span><br>\n' +
             '                                    &nbsp;\n' +
             '                                </li>\n' +
             '                            </ol>',
     },
+    {
+        title: "起风了",
+        content: " <p><span style=\"color: rgb(0, 0, 128);font-size: 20px;\"><strong>影片概况</strong></span></p>\n" +
+            "                            <hr>\n" +
+            "                            <p align=\"left\">《起风了》（英语：THE WIND RISES）是导演兼脚本的宫崎骏以同名漫画所改编的动画电影。该片于2013年7月20日在日本上映。\n" +
+            "                                该片讲述的是日本零式战斗机的开发者堀越二郎年轻时的故事。宫崎的作品，大多洋溢着像出现乘着扫帚在天空飞、鱼子从海边而来这样的幻想元素。但这次在影片中，没有不可思议的魔法，也不会出现怪物，堀越二郎是第二次世界大战中设计零战的实际存在的人物。</p>\n" +
+            "                            <p><span style=\"color: rgb(0, 0, 128);font-size: 20px;\"><strong>基本资料</strong></span></p>\n" +
+            "                            <hr>\n" +
+            "                            <p>原名：風立ちぬ<br>\n" +
+            "                                中文名：起风了<br>\n" +
+            "                                英文名：THE WIND RISES<br>\n" +
+            "                                其它译名：风吹过，风雪黄昏<br>\n" +
+            "                                出品公司：吉卜力工作室<br>\n" +
+            "                                制片地区：日本<br>\n" +
+            "                                导演：宫崎骏 <br>\n" +
+            "                                编剧：宫崎骏<br>\n" +
+            "                                制片：铃木敏夫，西村义明<br>\n" +
+            "                                主演：庵野秀明，泷本美织<br>\n" +
+            "                                音乐：武部聪志<br>\n" +
+            "                                片长：126分钟<br>\n" +
+            "                                首映日：2013-7-20（日本公演）</p>\n" +
+            "\n" +
+            "                            <p><span style=\"color: rgb(0, 0, 128);font-size: 20px;\"><strong>动画角色</strong></span></p>\n" +
+            "                            <hr>\n" +
+            "                            <p><strong>堀越 二郎</strong><br>\n" +
+            "                                堀越二郎出生在闭塞的乡下，。从小就对飞机有强烈的兴趣，梦想是“做出自己的飞机”。24岁以第一名成绩从东京帝国大学航空学科毕业后，就进入三菱重工，32岁事业取得突破性进展，设计出当时世界领先水平的9试单座战斗机（零式战机原型）。终于在自己的领域中以一己之力超越环境，取得了杰出的成就。\n" +
+            "                            </p>\n" +
+            "                            <p><strong>里见菜穗子</strong><br>\n" +
+            "                                很日本女性的一位人物，美丽、纯洁、文艺、温柔娴淑、身患绝症（结核病在当时是不治之症）。她如同清晨的朝露，照亮了工作狂二郎单调的人生。可以为了爱而不顾一切的人，与二郎的一见钟情，以及后来不顾自己病重，偷偷跑出医院。在自己弥留之际只为见他最后一面。总是笑得很甜，但是其实心里很苦。\n" +
+            "                            </p>\n" +
+            "                            <p><strong>本庄</strong><br>堀越二郎的同事，航空技师。</p>\n" +
+            "                            <p><strong>黑川</strong><br>堀越二郎的上司，对二郎非常严厉。并看中了他理想，因而对二郎帮助很多。</p>\n" +
+            "\n" +
+            "                            <p><span style=\"color: rgb(0, 0, 128);font-size: 20px;\"><strong>制作花絮</strong></span></p>\n" +
+            "                            <hr>\n" +
+            "                            <ol class=\"custom_num para-list list-paddingleft-1\">\n" +
+            "                                <li class=\"list-num-1-1 list-num-paddingleft-1\">\n" +
+            "                                    <div class=\"para\">\n" +
+            "                                        该片是宫崎骏执导的长片中，唯一一部片名没有假名\"の\"的作品，当然也是首部取材自真实人物的影片。\n" +
+            "                                    </div>\n" +
+            "                                </li>\n" +
+            "                                <li class=\"list-num-1-2 list-num-paddingleft-1\">\n" +
+            "                                    <div class=\"para\">\n" +
+            "                                        小说《起风了》是堀辰雄根据20世纪30年代在轻井泽养病的经历撰写的自传体爱情小说，原型名叫矢野绫子，在与作家邂逅的次年冬天因肺结核去世。小说中女主角名叫节子，而电影中女主角名叫菜穗子，同样来自作家1941年发表的另一部小说《菜穗子》。\n" +
+            "                                    </div>\n" +
+            "                                </li>\n" +
+            "                                <li class=\"list-num-1-3 list-num-paddingleft-1\">\n" +
+            "                                    <div class=\"para\">\"起风了\"是堀辰雄译自法国诗人<a target=\"_blank\"\n" +
+            "                                                                        href=\"https://baike.baidu.comhttps://baike.baidu.com/item/%E7%93%A6%E9%9B%B7%E9%87%8C\">瓦雷里</a>《<a\n" +
+            "                                            target=\"_blank\"\n" +
+            "                                            href=\"https://baike.baidu.com/item/%E6%B5%B7%E6%BB%A8%E5%A2%93%E5%9B%AD\">海滨墓园</a>》的一句诗，\"风立ちぬ、いざ生きめやも\"，堀辰雄把这句诗作为小说开篇第一句，这句“开篇诗”<sup\n" +
+            "                                            class=\"sup--normal\" data-sup=\"10\" data-ctrmap=\":10,\">\n" +
+            "                                        [10]</sup><a class=\"sup-anchor\" name=\"ref_[10]_11319515\">&nbsp;</a>\n" +
+            "                                        ，岳远坤译为：“起风了，努力活下去”；江荷偲采用诗人崔舜华对《海滨墓园》法文原诗的中译，译为：“风起，唯有努力生存”；而烨伊则译为颇有中文诗歌韵味的：“纵有疾风起，人生不言弃”<sup\n" +
+            "                                                class=\"sup--normal\" data-sup=\"11\" data-ctrmap=\":11,\">\n" +
+            "                                            [11]</sup><a class=\"sup-anchor\" name=\"ref_[11]_11319515\">&nbsp;</a>\n" +
+            "                                        。\n" +
+            "                                    </div>\n" +
+            "                                </li>\n" +
+            "                                <li class=\"list-num-1-4 list-num-paddingleft-1\">\n" +
+            "                                    <div class=\"para\">宫崎骏在观看《起风了》完成品时，不禁感动落泪，他自言这种情况尚属首次。</div>\n" +
+            "                                </li>\n" +
+            "                                <li class=\"list-num-1-5 list-num-paddingleft-1\">\n" +
+            "                                    <div class=\"para\">庵野秀明上一次担任影片主角是在他1983年采用八毫米摄像机拍摄的独立电影《杰克奥特曼\n" +
+            "                                        MATARROW号出发命令（帰ってきたウルトラマン マットアロー1号発进命令）》中，他饰演<a target=\"_blank\"\n" +
+            "                                                                                        href=\"https://baike.baidu.comhttps://baike.baidu.com/item/%E5%A5%A5%E7%89%B9%E6%9B%BC\">奥特曼</a>，距离2013年已有三十年时间。\n" +
+            "                                    </div>\n" +
+            "                                </li>\n" +
+            "                                <li class=\"list-num-1-6 list-num-paddingleft-1\">\n" +
+            "                                    <div class=\"para\">\n" +
+            "                                        影片于2012年公布的海报中写有向堀越二郎和堀辰雄致敬的字样，此外剧组还特别向堀辰雄的家属征求同意，并就人物的性格做了素材收集。\n" +
+            "                                    </div>\n" +
+            "                                </li>\n" +
+            "                                <li class=\"list-num-1-7 list-num-paddingleft-1\">\n" +
+            "                                    <div class=\"para\">\n" +
+            "                                        菜穗子去世的剧情在电影上映之前便由铃木敏夫所公开，在吉卜力历年作品中，女主角死掉的只有两例，另一部是《<a target=\"_blank\"\n" +
+            "                                                                                              href=\"https://baike.baidu.comhttps://baike.baidu.com/item/%E8%90%A4%E7%81%AB%E8%99%AB%E4%B9%8B%E5%A2%93/2309528\"\n" +
+            "                                                                                              data-lemmaid=\"2309528\">萤火虫之墓</a>（火垂るの墓）》（1988，导演：<a\n" +
+            "                                            target=\"_blank\"\n" +
+            "                                            href=\"https://baike.baidu.com/item/%E9%AB%98%E7%95%91%E5%8B%8B\">高畑勋</a>）中死于营养不良的妹妹节子。\n" +
+            "                                    </div>\n" +
+            "                                </li>\n" +
+            "                                <li class=\"list-num-1-8 list-num-paddingleft-1\">\n" +
+            "                                    <div class=\"para\">\n" +
+            "                                        借电影的东风，主题曲《飞机云》在iTunes配信排行榜上排名第一位，同时松任谷由实携手吉卜力工作室发售了《飞机云》四十周年纪念盘，以CD+DVD和LP+CD+DVD两种形式销售，其中附赠宫崎骏亲自绘制的18张画作。此外，松任谷由实24年前也曾为宫崎骏导演的《<a\n" +
+            "                                            target=\"_blank\"\n" +
+            "                                            href=\"https://baike.baidu.com/item/%E9%AD%94%E5%A5%B3%E5%AE%85%E6%80%A5%E4%BE%BF/22301\"\n" +
+            "                                            data-lemmaid=\"22301\">魔女宅急便</a>》提供主题歌。\n" +
+            "                                    </div>\n" +
+            "                                </li>\n" +
+            "                                <li class=\"list-num-1-9 list-num-paddingleft-1\">\n" +
+            "                                    <div class=\"para\">\n" +
+            "                                        影片中飞机螺旋桨、蒸汽机车、大地震等各种音效全部通过真人拟声完成。宫崎骏一度也有兴趣加入其中，但遭到部分职员的反对而死了这条心<sup\n" +
+            "                                            class=\"sup--normal\" data-sup=\"12\" data-ctrmap=\":12,\">\n" +
+            "                                        [12]</sup><a class=\"sup-anchor\" name=\"ref_[12]_11319515\">&nbsp;</a>\n" +
+            "                                        。\n" +
+            "                                    </div>\n" +
+            "                                </li>\n" +
+            "                                <li class=\"list-num-1-10 list-num-paddingleft-1\">\n" +
+            "                                    <div class=\"para\"><a target=\"_blank\"\n" +
+            "                                                         href=\"https://baike.baidu.com/item/%E5%AE%AB%E5%B4%8E%E9%AA%8F\">宫崎骏</a>称《起风了》将成为他的最后一部长篇动画作品<sup\n" +
+            "                                            class=\"sup--normal\" data-sup=\"13\" data-ctrmap=\":13,\">\n" +
+            "                                        [13]</sup><a class=\"sup-anchor\" name=\"ref_[13]_11319515\">&nbsp;</a>\n" +
+            "                                        。\n" +
+            "                                    </div>\n" +
+            "                                </li>\n" +
+            "                            </ol>\n" +
+            "\n" +
+            "                            <p><span style=\"color: rgb(0, 0, 128);font-size: 20px;\"><strong>幕后制作</strong></span></p>\n" +
+            "                            <hr>\n" +
+            "                            <p><strong>制作起源</strong><br></p>\n" +
+            "                            <div class=\"para\">宫崎骏于2009年4月至2010年1月期间在月刊《Model\n" +
+            "                                Graphix》上连载漫画作品《起风了》。该作以活跃于二战期间的日本战斗机设计师堀越二郎为主角，他曾经设计出一度在空军领域所向披靡的\n" +
+            "                                <a target=\"_blank\"\n" +
+            "                                   href=\"https://baike.baidu.com/item/%E9%9B%B6%E5%BC%8F%E6%88%98%E6%96%97%E6%9C%BA\">零式战斗机</a>。\n" +
+            "                                同时漫画题目和与女主角恋爱的情节，均取自和堀越二郎生在同时代的作家堀辰雄的同名小说。一向以反战立场著称的动画人，却出于种种原因对杀人的战斗机和战列舰无比痴迷，个中的矛盾性在这部极具个人化色彩的作品里分外突出。也许正因为这份矛盾性以及无处不在的人生八苦况味，令宫崎骏最初全然没有将其拍摄成动画电影的意向。最终成功促成该企划的正是宫崎骏的老搭档吉卜力工作室制作人铃木敏夫，他于漫画连载之初便抛出映画化的提案，但宫崎骏以\"动画电影应为儿童而非成人制作\"为理由断然拒绝。而铃木制作人指出\"宫崎骏应就其（作品中）的矛盾性给出自己的回答\"，此言准确击中要害。在网站公开的企划书中，宫崎就制作意图做了如下解释，\"这部电影既非对战争予以控诉，亦非意图通过对零式战斗机的杰出之处之描写来鼓舞日本的年轻人，却也不想掩饰二郎真心打造民用飞机的心愿，只希望讲述这么一个忠于自己的梦想、不断奋进之人的故事。\"<sup>\n" +
+            "                                </sup>\n" +
+            "                            </div>\n" +
+            "                            <br>\n" +
+            "                            <p><strong>制作团队</strong></p>\n" +
+            "                            <div class=\"para\">宫崎骏一人独据原作、编剧、导演三项重要职务，\n" +
+            "                                <a target=\"_blank\"\n" +
+            "                                   href=\"https://baike.baidu.com/item/%E9%AB%98%E5%9D%82%E5%B8%8C%E5%A4%AA%E9%83%8E\">高坂希太郎</a>（《<a\n" +
+            "                                        target=\"_blank\"\n" +
+            "                                        href=\"https://baike.baidu.com/item/%E5%8D%83%E4%B8%8E%E5%8D%83%E5%AF%BB\">千与千寻</a>》）和<a\n" +
+            "                                        target=\"_blank\"\n" +
+            "                                        href=\"https://baike.baidu.com/item/%E6%AD%A6%E9%87%8D%E6%B4%8B%E4%BA%8C\">武重洋二</a>（《<a\n" +
+            "                                        target=\"_blank\"\n" +
+            "                                        href=\"https://baike.baidu.com/item/%E5%93%88%E5%B0%94%E7%9A%84%E7%A7%BB%E5%8A%A8%E5%9F%8E%E5%A0%A1\">哈尔的移动城堡</a>》）分任作画导演和美术导演。另一位老搭档久石让则奉上了历时两年打磨而成的原声。声优方面，此次推出了一个全员非专业的阵容，男主角堀越二郎由<a\n" +
+            "                                        target=\"_blank\" href=\"https://baike.baidu.com/item/EVA/31881\"\n" +
+            "                                        data-lemmaid=\"31881\">EVA</a>导演庵野秀明担任，这也成就了他和宫崎导演自《风之谷（风の谷のナウシカ）》（1984）以来的首度合作；女主角菜穗子由曾主演2010年NHK晨间剧《<a\n" +
+            "                                        target=\"_blank\" href=\"https://baike.baidu.com/item/%E9%93%81%E6%9D%BF/5804234\"\n" +
+            "                                        data-lemmaid=\"5804234\">铁板</a>（てっぱん）》的泷本美织负责；西岛秀俊为二郎的好友，现实中曾设计出八试特殊侦察机和<a\n" +
+            "                                        target=\"_blank\"\n" +
+            "                                        href=\"https://baike.baidu.com/item/%E4%B9%9D%E5%85%AD%E5%BC%8F%E9%99%86%E4%B8%8A%E6%94%BB%E5%87%BB%E6%9C%BA\">九六式陆上攻击机</a>的本庄季郎献声。除此之外，<a\n" +
+            "                                        target=\"_blank\"\n" +
+            "                                        href=\"https://baike.baidu.com/item/%E8%A5%BF%E6%9D%91%E9%9B%85%E5%BD%A6\">西村雅彦</a>、<a\n" +
+            "                                        target=\"_blank\"\n" +
+            "                                        href=\"https://baike.baidu.com/item/%E9%A3%8E%E9%97%B4%E6%9D%9C%E5%A4%AB\">风间杜夫</a>、<a\n" +
+            "                                        target=\"_blank\"\n" +
+            "                                        href=\"https://baike.baidu.com/item/%E7%AB%B9%E4%B8%8B%E6%99%AF%E5%AD%90\">竹下景子</a>、<a\n" +
+            "                                        target=\"_blank\"\n" +
+            "                                        href=\"https://baike.baidu.com/item/%E5%BF%97%E7%94%B0%E6%9C%AA%E6%9D%A5\">志田未来</a>等来自日本影视歌及艺能界的知名役者纷纷加盟。<sup\n" +
+            "                                        class=\"sup--normal\" data-sup=\"31\" data-ctrmap=\":31,\"></sup>\n" +
+            "                            </div>\n" +
+            "\n" +
+            "                            <p class=\"mt-3\"><span\n" +
+            "                                    style=\"color: rgb(0, 0, 128);font-size: 20px;\"><strong>音乐</strong></span></p>\n" +
+            "                            <hr>\n" +
+            "                            <ul class=\"custom_dot para-list list-paddingleft-1\">\n" +
+            "                                <li class=\"list-dot list-dot-paddingleft\">\n" +
+            "                                    <div class=\"para\"><b>主题曲</b>：<a target=\"_blank\"\n" +
+            "                                                                    href=\"https://baike.baidu.comhttps://baike.baidu.com/item/%E9%A3%9E%E6%9C%BA%E4%BA%91\">飞机云</a>/ひこうき云；歌手、词曲作者：<a\n" +
+            "                                            target=\"_blank\"\n" +
+            "                                            href=\"https://baike.baidu.com/item/%E6%9D%BE%E4%BB%BB%E8%B0%B7%E7%94%B1%E5%AE%9E\">松任谷由实</a>/松任谷由実（旧名：荒井由实/荒井由実）。<sup\n" +
+            "                                            class=\"sup--normal\" data-sup=\"7\" data-ctrmap=\":7,\">\n" +
+            "                                        [7]</sup><a class=\"sup-anchor\" name=\"ref_[7]_11319515\">&nbsp;</a>\n" +
+            "                                        《飞机云》是松任谷由实1973年推出的首张专辑中的主打曲，作为松任谷由实和吉卜力工作室合作的一个环节，2013年双方在\n" +
+            "                                        <a target=\"_blank\"\n" +
+            "                                           href=\"https://baike.baidu.com/item/%E4%B8%89%E9%B9%B0%E4%B9%8B%E6%A3%AE%E5%90%89%E5%8D%9C%E5%8A%9B%E7%BE%8E%E6%9C%AF%E9%A6%86\">三鹰之森吉卜力美术馆</a>内拍摄了一段《飞机云》的MV。MV中还使用了1974年拍摄，但是一直没有商业使用过的松任谷由实40年前的视频。\n" +
+            "                                    </div>\n" +
+            "                                </li>\n" +
+            "                                <li class=\"list-dot list-dot-paddingleft\">\n" +
+            "                                    <div class=\"para\"><b>插入曲</b>：“Das gibt’s nur einmal”；作词：Robert\n" +
+            "                                        Gilbert；作曲：Werner Richard Heymann\n" +
+            "                                    </div>\n" +
+            "                                </li>\n" +
+            "                                <li class=\"list-dot list-dot-paddingleft\">\n" +
+            "                                    <div class=\"para\"><b>朗读诗</b>：《风》原诗：Christina Rossetti ；翻译诗：\n" +
+            "                                        <a target=\"_blank\"\n" +
+            "                                           href=\"https://baike.baidu.com/item/%E8%A5%BF%E6%9D%A1%E5%85%AB%E5%8D%81\">西条八十</a>\n" +
+            "                                        （日本哥伦比亚）<sup class=\"sup--normal\" data-sup=\"4\" data-ctrmap=\":4,\"></sup><a\n" +
+            "                                                class=\"sup-anchor\" name=\"ref_[4]_11319515\">&nbsp;</a>\n" +
+            "                                    </div>\n" +
+            "                                </li>\n" +
+            "                            </ul>\n" +
+            "                            <table class=\"table-view log-set-param\">\n" +
+            "                                <caption>原版名称</caption>\n" +
+            "                                <tbody>\n" +
+            "                                <tr>\n" +
+            "                                    <td>\n" +
+            "                                        <div class=\"para\">01. 旅路（梦中飞行）</div>\n" +
+            "                                    </td>\n" +
+            "                                    <td>02. 流れ星</td>\n" +
+            "                                    <td>03. カプローニ（设计家の梦）</td>\n" +
+            "                                </tr>\n" +
+            "                                <tr>\n" +
+            "                                    <td>04. 旅路（决意）</td>\n" +
+            "                                    <td>05. 菜穂子（出会い）</td>\n" +
+            "                                    <td>06. 避难</td>\n" +
+            "                                </tr>\n" +
+            "                                <tr>\n" +
+            "                                    <td>\n" +
+            "                                        <div class=\"para\">07. 恩人</div>\n" +
+            "                                    </td>\n" +
+            "                                    <td>08. カプローニ（幻の巨大机）</td>\n" +
+            "                                    <td>09. ときめき</td>\n" +
+            "                                </tr>\n" +
+            "                                <tr>\n" +
+            "                                    <td>\n" +
+            "                                        <div class=\"para\">10. 旅路（妹）</div>\n" +
+            "                                    </td>\n" +
+            "                                    <td>\n" +
+            "                                        <div class=\"para\">11. 旅路（初出社）</div>\n" +
+            "                                    </td>\n" +
+            "                                    <td>12. 隼班</td>\n" +
+            "                                </tr>\n" +
+            "                                <tr>\n" +
+            "                                    <td>\n" +
+            "                                        <div class=\"para\">13. 隼</div>\n" +
+            "                                    </td>\n" +
+            "                                    <td>14. ユンカース</td>\n" +
+            "                                    <td>15. 旅路（イタリアの风）</td>\n" +
+            "                                </tr>\n" +
+            "                                <tr>\n" +
+            "                                    <td>\n" +
+            "                                        <div class=\"para\">16. 旅路（カプローニの引退）</div>\n" +
+            "                                    </td>\n" +
+            "                                    <td>17. 旅路（軽井沢の出会い）</td>\n" +
+            "                                    <td>18. 菜穂子（运命）</td>\n" +
+            "                                </tr>\n" +
+            "                                <tr>\n" +
+            "                                    <td>\n" +
+            "                                        <div class=\"para\">19. 菜穂子（虹）</div>\n" +
+            "                                    </td>\n" +
+            "                                    <td>20. カストルプ（魔の山）</td>\n" +
+            "                                    <td>21. 风</td>\n" +
+            "                                </tr>\n" +
+            "                                <tr>\n" +
+            "                                    <td>\n" +
+            "                                        <div class=\"para\">22. 纸飞行机</div>\n" +
+            "                                    </td>\n" +
+            "                                    <td>23. 菜穂子（プロポーズ）</td>\n" +
+            "                                    <td>24. 八试特侦</td>\n" +
+            "                                </tr>\n" +
+            "                                <tr>\n" +
+            "                                    <td>\n" +
+            "                                        <div class=\"para\">25. カストルプ（别れ）</div>\n" +
+            "                                    </td>\n" +
+            "                                    <td>26. 菜穂子（会いたくて）</td>\n" +
+            "                                    <td>27. 菜穂子（めぐりあい）</td>\n" +
+            "                                </tr>\n" +
+            "                                <tr>\n" +
+            "                                    <td>\n" +
+            "                                        <div class=\"para\">28. 旅路（结婚）</div>\n" +
+            "                                    </td>\n" +
+            "                                    <td>29. 菜穂子（眼差し）</td>\n" +
+            "                                    <td>30. 旅路（别れ）</td>\n" +
+            "                                </tr>\n" +
+            "                                <tr>\n" +
+            "                                    <td>\n" +
+            "                                        <div class=\"para\">31. 旅路（梦の王国）</div>\n" +
+            "                                    </td>\n" +
+            "                                    <td>映画“风立ちぬ”音源</td>\n" +
+            "                                    <td>菜穂子（めぐりあい）《MONO》 <sup class=\"sup--normal\" data-sup=\"8\"\n" +
+            "                                                              data-ctrmap=\":8,\"></sup><a class=\"sup-anchor\"\n" +
+            "                                                                                         name=\"ref_[8]_11319515\">&nbsp;</a>\n" +
+            "                                    </td>\n" +
+            "                                </tr>\n" +
+            "                                </tbody>\n" +
+            "                            </table>\n" +
+            "                            <table class=\"table-view log-set-param\" data-sort=\"sortDisabled\">\n" +
+            "                                <caption>译本（台湾）</caption>\n" +
+            "                                <tbody>\n" +
+            "                                <tr>\n" +
+            "                                    <td>\n" +
+            "                                        <div class=\"para\">01. 旅路（梦中飞行）</div>\n" +
+            "                                    </td>\n" +
+            "                                    <td>02. 流星</td>\n" +
+            "                                    <td>03. 卡普罗尼（设计师之梦）</td>\n" +
+            "                                    <td width=\"104\" height=\"0\" align=\"left\" valign=\"middle\" colspan=\"1\" rowspan=\"11\">\n" +
+            "                                        <div class=\"para\">作者：久石让</div>\n" +
+            "                                        <div class=\"para\">演奏：读壳日本</div>\n" +
+            "                                        <div class=\"para\">交响乐队<sup class=\"sup--normal\" data-sup=\"7\"\n" +
+            "                                                                   data-ctrmap=\":7,\">\n" +
+            "                                            [7]</sup><a class=\"sup-anchor\" name=\"ref_[7]_11319515\">&nbsp;</a>\n" +
+            "                                        </div>\n" +
+            "                                    </td>\n" +
+            "                                </tr>\n" +
+            "                                <tr>\n" +
+            "                                    <td>04. 旅途（决心）</td>\n" +
+            "                                    <td>05. 菜穗子（相遇）</td>\n" +
+            "                                    <td>06. 避难</td>\n" +
+            "                                </tr>\n" +
+            "                                <tr>\n" +
+            "                                    <td>\n" +
+            "                                        <div class=\"para\">07. 恩人</div>\n" +
+            "                                    </td>\n" +
+            "                                    <td>08. 卡普罗尼（梦幻巨型机）</td>\n" +
+            "                                    <td>09. 心动</td>\n" +
+            "                                </tr>\n" +
+            "                                <tr>\n" +
+            "                                    <td>\n" +
+            "                                        <div class=\"para\">10. 旅路（妹妹）</div>\n" +
+            "                                    </td>\n" +
+            "                                    <td>11. 旅路（第一天上班）</td>\n" +
+            "                                    <td>12. 猎鹰团队</td>\n" +
+            "                                </tr>\n" +
+            "                                <tr>\n" +
+            "                                    <td>\n" +
+            "                                        <div class=\"para\">13. 猎鹰</div>\n" +
+            "                                    </td>\n" +
+            "                                    <td>14. 容克斯</td>\n" +
+            "                                    <td>15. 旅途（意大利之风）</td>\n" +
+            "                                </tr>\n" +
+            "                                <tr>\n" +
+            "                                    <td>\n" +
+            "                                        <div class=\"para\">16. 旅途（卡普罗尼的引退）</div>\n" +
+            "                                    </td>\n" +
+            "                                    <td>17. 旅途（轻井泽的相遇）</td>\n" +
+            "                                    <td>18. 菜穗子（命运）</td>\n" +
+            "                                </tr>\n" +
+            "                                <tr>\n" +
+            "                                    <td>\n" +
+            "                                        <div class=\"para\">19. 菜穗子（彩虹）</div>\n" +
+            "                                    </td>\n" +
+            "                                    <td>20. 卡斯特鲁普（魔山）</td>\n" +
+            "                                    <td>21. 风</td>\n" +
+            "                                </tr>\n" +
+            "                                <tr>\n" +
+            "                                    <td>\n" +
+            "                                        <div class=\"para\">22. 纸飞行机</div>\n" +
+            "                                    </td>\n" +
+            "                                    <td>23. 菜穗子（求婚）</td>\n" +
+            "                                    <td>24. 八试特殊侦察机</td>\n" +
+            "                                </tr>\n" +
+            "                                <tr>\n" +
+            "                                    <td>\n" +
+            "                                        <div class=\"para\">25. 卡斯特鲁普（分离）</div>\n" +
+            "                                    </td>\n" +
+            "                                    <td>26. 菜穗子（想见你）</td>\n" +
+            "                                    <td>27. 菜穗子（重逢）</td>\n" +
+            "                                </tr>\n" +
+            "                                <tr>\n" +
+            "                                    <td>\n" +
+            "                                        <div class=\"para\">28. 旅路（结婚）</div>\n" +
+            "                                    </td>\n" +
+            "                                    <td>29. 菜穗子（眼神）</td>\n" +
+            "                                    <td>30. 旅途（分离）</td>\n" +
+            "                                </tr>\n" +
+            "                                <tr>\n" +
+            "                                    <td>\n" +
+            "                                        <div class=\"para\">31. 旅途（梦之王国）</div>\n" +
+            "                                    </td>\n" +
+            "                                    <td><sup class=\"sup--normal\" data-sup=\"9\" data-ctrmap=\":9,\">\n" +
+            "                                        [9]</sup><a class=\"sup-anchor\" name=\"ref_[9]_11319515\">&nbsp;</a>\n" +
+            "                                    </td>\n" +
+            "                                    <td></td>\n" +
+            "                                </tr>\n" +
+            "                                </tbody>\n" +
+            "                            </table>\n" +
+            "                            <br>\n" +
+            "\n" +
+            "                            <p><span style=\"color: rgb(0, 0, 128);font-size: 20px;\"><strong>影片评价</strong></span></p>\n" +
+            "                            <hr>\n" +
+            "                            <p><strong>影片评论</strong><br></p>\n" +
+            "                            <ul class=\"custom_dot para-list list-paddingleft-1\">\n" +
+            "                                <li class=\"list-dot list-dot-paddingleft\">\n" +
+            "                                    <div class=\"para\">韩国看过影片的影评人和媒体对影片持赞赏态度，《<a target=\"_blank\"\n" +
+            "                                                                                href=\"https://baike.baidu.com/item/%E6%9C%9D%E9%B2%9C%E6%97%A5%E6%8A%A5\">朝鲜日报</a>》称，《起风了》有“和宫崎骏本人一样使人平静的本事”。\n" +
+            "                                    </div>\n" +
+            "                                </li>\n" +
+            "                                <li class=\"list-dot list-dot-paddingleft\">\n" +
+            "                                    <div class=\"para\">美国《<a target=\"_blank\"\n" +
+            "                                                            href=\"https://baike.baidu.com/item/%E5%90%8D%E5%88%A9%E5%9C%BA/3040736\"\n" +
+            "                                                            data-lemmaid=\"3040736\">名利场</a>》杂志称，从票房来看，《起风了》无疑是2013年最成功的日本电影。\n" +
+            "                                    </div>\n" +
+            "                                </li>\n" +
+            "                                <li class=\"list-dot list-dot-paddingleft\">\n" +
+            "                                    <div class=\"para\">港媒称，宫崎骏历来热爱飞机。但他这一部电影作品对这种喜爱的表现却有所不同。<a class=\"sup-anchor\"\n" +
+            "                                                                                              name=\"ref_[41]_11319515\">&nbsp;</a>\n" +
+            "                                    </div>\n" +
+            "                                </li>\n" +
+            "                                <li class=\"list-dot list-dot-paddingleft\">\n" +
+            "                                    <div class=\"para\">片中出现的意大利飞机发明家吉亚尼·卡普罗尼（Giovanni Battista\n" +
+            "                                        \"Gianni\" Caproni）的孙子伊塔罗·卡普罗尼（Italo\n" +
+            "                                        Caproni）对于在银幕上重现的祖父形象，伊塔罗盛赞道：“与当年抱着我的祖父形象完全一样，宫崎导演完美地描绘出了我的祖父。”\n" +
+            "                                    </div>\n" +
+            "                                </li>\n" +
+            "                                <li class=\"list-dot list-dot-paddingleft\">\n" +
+            "                                    <div class=\"para\">意大利帕多瓦早报（Il mattino di Padova）的雷奥尼·恩兹奥/Leoni\n" +
+            "                                        Ezio认为虽然宫崎骏最好的作品是《<a target=\"_blank\"\n" +
+            "                                                             href=\"https://baike.baidu.com/item/%E5%8D%83%E4%B8%8E%E5%8D%83%E5%AF%BB\">千与千寻</a>》，但是本片他也很喜欢，“这是一部很野心的作品，也许还有点夸张，但是拍摄这样一部电影还是值得的。因为在动画片里，通常都是讲述给孩子们的小故事，而宫崎骏讲述了一段很重要的历史。这是个美丽的故事，它让我这样年岁的人重新回到了童年回忆中。”\n" +
+            "                                    </div>\n" +
+            "                                </li>\n" +
+            "                                <li class=\"list-dot list-dot-paddingleft\">\n" +
+            "                                    <div class=\"para\">法国《<a target=\"_blank\"\n" +
+            "                                                            href=\"https://baike.baidu.com/item/%E6%AD%A3%E7%89%87\">正片</a>》主编米歇尔·西蒙称很失望，“无论是剧本还是图像，\n" +
+            "                                        都觉得缺少创新。”\n" +
+            "                                    </div>\n" +
+            "                                </li>\n" +
+            "                                <li>\n" +
+            "                                    色彩与画风运用已经到了极高的境界，无论是乡间、城市，还是雄伟的大型飞机、以及试飞过程，都展现出大气、清新、优美的感觉。多次与宫崎骏合作的久石让则用轻快的手风琴、曼陀林打造主旋律，弦乐重奏又显得温柔绵长，为影片加了不少分。\n" +
+            "                                    不过，影片的叙事堪称“流水账”，仅仅按照时间顺序，毫无悬念地向前走。除了二郎在梦中与偶像交谈之外，其他的情节基本都是实际生活的演变。过去宫崎骏那种漫无边际的想象力，暗黑、批判属性，都无影无踪，这是影片令人失望的部分。（来源：凤凰网娱乐）\n" +
+            "                                </li>\n" +
+            "                            </ul>\n" +
+            "                            <p><strong>社会影响</strong><br></p>\n" +
+            "                            <div class=\"para\">\n" +
+            "                                <div class=\"lemma-picture text-pic layout-right\" style=\"width:220px; float: right;\">\n" +
+            "                                    <a class=\"image-link\"\n" +
+            "                                       href=\"https://baike.baidu.com/pic/%E8%B5%B7%E9%A3%8E%E4%BA%86/1027638/0/ac4bd11373f082028684b52249fbfbedab641b9c?fr=lemma&amp;ct=single\"\n" +
+            "                                       target=\"_blank\" title=\"主角与他的飞机（宣传插画）\" style=\"width:220px;height:111px;\">\n" +
+            "                                        <img src=\"https://bkimg.cdn.bcebos.com/pic/ac4bd11373f082028684b52249fbfbedab641b9c?x-bce-process=image/resize,m_lfit,w_220,h_220,limit_1\"\n" +
+            "                                             alt=\"主角与他的飞机（宣传插画）\" style=\"width:220px;height:111px;\">\n" +
+            "                                    </a>\n" +
+            "                                    <span class=\"description\">主角与他的飞机（宣传插画）</span>\n" +
+            "                                </div>\n" +
+            "                                尽管影片的题材与战争有关，《起风了》却传递了一种安静的反战信息。其公映的日期却正值日本政治环境中对外交政策采取<a target=\"_blank\"\n" +
+            "                                                                                          href=\"https://baike.baidu.com/item/%E9%B9%B0%E6%B4%BE\">鹰派</a>立场的敏感时期。而宫崎骏本人也指出了日本应对以往历史罪行道歉以及不能随意修改宪法等等。如此言论激起了日本右翼保守派们的愤怒，许多人通过互联网表达对于<a\n" +
+            "                                    target=\"_blank\" href=\"https://baike.baidu.com/item/%E5%AE%89%E5%80%8D\">安倍</a>民族主义政策的支持。在<a target=\"_blank\"\n" +
+            "                                                                                                        href=\"https://baike.baidu.com/item/%E9%9B%85%E8%99%8E%E6%97%A5%E6%9C%AC\">雅虎日本</a>网站关于电影《起风了》的页面上，超过2000条评论，许多网民都在指责影片传递的和平主义信息。称其是一部彻头彻尾的“左翼”倾向电影，有人甚至给宫崎骏打上了“反日”和“叛国者”的标签。\n" +
+            "                            </div>\n" +
+            "                            <br>\n" +
+            "                            <div class=\"para\"> 韩国媒体认为“宫崎骏敢言令人佩服”，韩国MK新闻网赞扬道：“宫崎骏博爱以及追求世界和平的想法令人钦佩。”\n" +
+            "                                中国央视则特别对《起风了》进行专题报道，人民日报官方微博也称“有一种力量叫宫崎骏”。\n" +
+            "                            </div>\n" +
+            "                            <br>\n" +
+            "                            <div class=\"para\">日本禁烟学会则批评在电影《起风了》中，吸烟场景过多。学会评称，作品中的中有太多吸烟描写。违反了《<a target=\"_blank\" href=\"https://baike.baidu.com/item/%E4%B8%96%E7%95%8C%E5%8D%AB%E7%94%9F%E7%BB%84%E7%BB%87%E7%83%9F%E8%8D%89%E6%8E%A7%E5%88%B6%E6%A1%86%E6%9E%B6%E5%85%AC%E7%BA%A6\">世界卫生组织烟草控制框架公约</a>\n" +
+            "                                》第13条“禁止在媒体刊登烟草广告和进行宣传”，也不利于观看影片的未成年的健康成长。描写此类场景应有其他更正确的表达手法。日本网民对此褒贬不一，有意见称这是“表达自由”，也有人表示“别给作品挑毛病”。日本吸烟文化研究会则作出回应，主要提出了2点主张。首先，《起风了》讲述的是发生在战前的故事，据1950年的非正式数据，当时男性84.5%都有吸烟，这部电影只是再现了当时的状况。\n" +
+            "                                其次，日本国宪法第21条规定国民有“表达自由”的权利，相比于国际条款，当前日本遵从的是“宪法优先说”。\n" +
+            "                            </div>\n" +
+            "                            <br>"
+    }
 ]
