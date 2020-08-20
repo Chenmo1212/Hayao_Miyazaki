@@ -12,7 +12,7 @@
     font-style: normal;
 }
 
-[class^="ckin-"], [class*=" ckin-"] {
+[class^="ckin-"], [class*="ckin-"] {
     /* use !important to prevent issues with browser extensions that change fonts */
     font-family: 'ckin', serif !important;
     speak: none;
@@ -263,7 +263,6 @@ video {
     -ms-flex: 0;
     flex: 0;
     -ms-flex-preferred-size: 0%;
-    flex-basis: 0;
     border-radius: 4px;
 }
 
@@ -414,7 +413,6 @@ video {
     -ms-flex: 0;
     flex: 0;
     -ms-flex-preferred-size: 0%;
-    flex-basis: 0%;
     border-radius: 4px;
 }
 
