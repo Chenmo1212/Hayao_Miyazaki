@@ -534,9 +534,6 @@ ul, li {
     background-color: rgba(0, 0, 0, 0.03);
 }
 
-.list .list_item:nth-child(2) .thumb {
-    background-image: url(https://i1.sndcdn.com/artworks-000149308680-w9rj6a-large.jpg);
-}
 
 .list .thumb {
     width: 50px;
