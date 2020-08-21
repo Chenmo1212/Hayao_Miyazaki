@@ -487,8 +487,12 @@ body {
 
 .playback_info .info_title {
     font-size: 30px;
-    display: inline;
+    display: inline-block;
     color: #252120;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    width: 100%;
 }
 
 .playback_info .info_artist {
@@ -681,13 +685,17 @@ ul, li {
 
     .playback_info .info_title {
         font-size: 20px;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        width: 200px;
     }
     .playback_info .info_artist {
         font-size: 16px;
         overflow: hidden;
         text-overflow: ellipsis;
         white-space: nowrap;
-        width: 100%;
+        width: 200px;
     }
     .playback_info .info_desc {
         margin-top: 26px;
