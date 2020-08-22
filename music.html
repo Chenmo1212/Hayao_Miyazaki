@@ -194,29 +194,33 @@
         <div class="playback_info">
             <div class="info_title">Friday Comes</div>
             <div class="info_artist">Early</div>
-            <div class="info_desc">故事中看似死亡森林的腐海及居住在腐海中的巨大昆虫以及群虫之王“王虫”皆是为了使污染的大地复元而生。而主角娜乌西卡从小生长的地方“风之谷”则象征着人与自然共生共荣的处女大地。</div>
+            <div class="info_desc">
+                故事中看似死亡森林的腐海及居住在腐海中的巨大昆虫以及群虫之王“王虫”皆是为了使污染的大地复元而生。而主角娜乌西卡从小生长的地方“风之谷”则象征着人与自然共生共荣的处女大地。
+            </div>
         </div>
         <div class="playback_btn_wrapper"><i class="btn-prev fa fa-step-backward" aria-hidden="true"></i>
-            <div class="btn-switch"><i class="btn-play fa fa-play" aria-hidden="true"></i><i class="btn-pause fa fa-pause" aria-hidden="true"></i></div><i class="btn-next fa fa-step-forward" aria-hidden="true"></i>
+            <div class="btn-switch"><i class="btn-play fa fa-play" aria-hidden="true"></i><i
+                    class="btn-pause fa fa-pause" aria-hidden="true"></i></div>
+            <i class="btn-next fa fa-step-forward" aria-hidden="true"></i>
         </div>
         <!--<div class="playback_timeline">-->
-            <!--<div class="playback_timeline_start-time">00:31</div>-->
-            <!--<div class="playback_timeline_slider">-->
-                <!--<div class="slider_base"></div>-->
-                <!--<div class="slider_progress"></div>-->
-                <!--<div class="slider_handle"></div>-->
-            <!--</div>-->
-            <!--<div class="playback_timeline_end-time">03:11</div>-->
+        <!--<div class="playback_timeline_start-time">00:31</div>-->
+        <!--<div class="playback_timeline_slider">-->
+        <!--<div class="slider_base"></div>-->
+        <!--<div class="slider_progress"></div>-->
+        <!--<div class="slider_handle"></div>-->
+        <!--</div>-->
+        <!--<div class="playback_timeline_end-time">03:11</div>-->
         <!--</div>-->
     </div>
     <div class="list_wrapper">
         <ul class="list" id="songList">
             <!--<li class="list_item selected">-->
-                <!--<div class="thumb"> </div>-->
-                <!--<div class="info">-->
-                    <!--<div class="title">Friday Comes</div>-->
-                    <!--<div class="artist">Early</div>-->
-                <!--</div>-->
+            <!--<div class="thumb"> </div>-->
+            <!--<div class="info">-->
+            <!--<div class="title">Friday Comes</div>-->
+            <!--<div class="artist">Early</div>-->
+            <!--</div>-->
             <!--</li>-->
         </ul>
     </div>
@@ -259,7 +263,8 @@
 
         </div>
     </div>
-</footer> <a href="#0" class="cd-top">Top</a>
+</footer>
+<a href="#0" class="cd-top">Top</a>
 <!-- External JS -->
 <script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
 <script src="vendor/bootstrap/popper.min.js"></script>
@@ -278,19 +283,24 @@
 <script src="js/music.js"></script>
 <script>
 
+    let url = decodeURI(window.location.href);
+    let argsIndex = url.split("?name=");
+    let arg = argsIndex[1];
+    console.log(arg);
+
     // 音乐封面
-    let re = "<img src=\"./img/music/岁月的童话.jpg\" class=\"active\" id=\"_1\" alt=''>";
-    for (let i = 2; i <= musicData.length + 1; i++) {
-        let picUrl = musicData[i-2].coverUrl;
-        re += "<img src=\'" + picUrl + "\' id=\'_" + i + "\' alt=''>"
+    let re = "<img src=\"" + musicData[0].coverUrl + "\" class=\"active\" id=\"_1\" alt=''>";
+    for (let i = 3; i <= musicData.length + 1; i++) {
+        let picUrl = musicData[i - 2].coverUrl;
+        re += "<img src=\'" + picUrl + "\' id=\'_" + (i - 1) + "\' alt=''>"
     }
     re += "<div id=\"buffer-box\">加载中...</div>";
     document.getElementById("album-art").innerHTML = re;
 
 
     let songItem = "";
-    for (let j = 0; j < musicData.length ; j++){
-        songItem += "<li class=\"list_item selected\" onclick='chooseSong(" + j +")'>" +
+    for (let j = 0; j < musicData.length; j++) {
+        songItem += "<li class=\"list_item selected\" onclick='chooseSong(" + j + ")'>" +
             "                <div class=\"thumb\" style='background-image: url(" + musicData[j].coverUrl + ")'></div>\n" +
             "                <div class=\"info\">\n" +
             "                    <div class=\"title\">" + musicData[j].name + "</div>\n" +
@@ -304,8 +314,8 @@
     function showSongLists() {
         // console.log($("#right-menu").prop("className"))
         const rightMenu = $("#right-menu");
-        if (rightMenu.prop("className").indexOf('show') >=0){
-            console.log("true")
+        if (rightMenu.prop("className").indexOf('show') >= 0) {
+            // console.log("true")
             rightMenu.css('display', "none");
             $(".dim").css('display', "none");
             rightMenu.removeClass("show a-bounceoutR");
@@ -316,6 +326,19 @@
         }
     }
 
+    if (arg) {
+        let str = encodeURI(arg);
+        const liArr = document.getElementById("album-art").childNodes;
+        for (let i = 0; i < liArr.length - 1; i++) {
+            // console.log(liArr[i].src.indexOf(str))
+            if (liArr[i].src.indexOf(str) >= 0) {
+                liArr[i].className = "active";
+                liArr[0].className = "";
+                selectTrack(i + 1, false);
+                break;
+            }
+        }
+    }
 </script>
 </body>
 

@@ -169,7 +169,7 @@ function checkBuffering() {
     }, 100);
 }
 
-function selectTrack(flag) {
+function selectTrack(flag, isAuto) {
     if (flag === 0 || flag === 1)
         ++currIndex;
     else if (flag === -1)
@@ -181,7 +181,7 @@ function selectTrack(flag) {
         albumArtworks.push("_" + (i + 1))
     }
     if ((currIndex > -1) && (currIndex < albumArtworks.length)) {
-        if (flag === 0)
+        if (flag === 0 || !isAuto)
             i.attr('class', 'ckin-play');
         else {
             albumArt.removeClass('buffering');
@@ -214,7 +214,7 @@ function selectTrack(flag) {
         bTime = new Date();
         bTime = bTime.getTime();
 
-        if (flag != 0) {
+        if (flag !== 0 && isAuto) {
             audio.play();
             playerTrack.addClass('active');
             playerTitle.addClass('active');
@@ -253,7 +253,7 @@ function selectTrack(flag) {
 function initPlayer() {
     audio = new Audio();
 
-    selectTrack(0);
+    selectTrack(0, true);
 
     audio.loop = false;
 
@@ -270,16 +270,16 @@ function initPlayer() {
     $(audio).on('timeupdate', updateCurrTime);
 
     playPreviousTrackButton.on('click', function () {
-        selectTrack(-1);
+        selectTrack(-1, true);
     });
     playNextTrackButton.on('click', function () {
-        selectTrack(1);
+        selectTrack(1, true);
     });
 }
 
 function chooseSong(index) {
     console.log(index);
-    selectTrack(index);
+    selectTrack(index, true);
     showSongLists();
 }
 initPlayer();

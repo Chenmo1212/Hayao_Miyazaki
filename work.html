@@ -5,6 +5,7 @@
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <link rel="stylesheet" href="./css/main.css"/>
+    <link rel="stylesheet" href="./css/loading.css"/>
     <noscript>
         <style>
             body:before {
@@ -29,7 +30,7 @@
 <body class="is-loading-0 is-loading-1 is-loading-2">
 <div class="return" style="position: absolute; left: 10px;top:20px;z-index:9999;">
     <a href="./index.html">
-        <img src="./img/icons/return.png" width="40px" alt="">
+        <img src="./img/icons/return.png" style="width: 40px;" alt="">
     </a>
 </div>
 <!-- Main -->
@@ -288,7 +289,7 @@
         <article>
             <a class="thumbnail" href="img/work/11.jpg"><img src="img/work/11.jpg" alt=""/></a>
             <div class="thumbnail-title">
-                <a class="ext-link" href="./film_article.html?name=悬崖上的金鱼姬">红花坂上的海</a>
+                <a class="ext-link" href="./film_article.html?name=红花坂上的海">红花坂上的海</a>
                 <div class="watch-movie watch-btn" onclick="toVideoDetail('虞美人盛开的山坡')">看电影</div>
                 <div class="watch-pic watch-btn" onclick="toWorkDetail('虞美人盛开的山坡')">原画册</div>
             </div>
@@ -296,7 +297,7 @@
         </article>
         <article>
             <a class="thumbnail" href="img/work/12.jpg"><img src="img/work/12.jpg" alt=""/></a>
-            <div class="thumbnail-title"><a class="ext-link" href="./film_article.html?name=悬崖上的金鱼姬">红花坂上的海
+            <div class="thumbnail-title"><a class="ext-link" href="./film_article.html?name=红花坂上的海">红花坂上的海
             </a>
                 <div class="watch-movie watch-btn" onclick="toVideoDetail('虞美人盛开的山坡')">看电影</div>
                 <div class="watch-pic watch-btn" onclick="toWorkDetail()('虞美人盛开的山坡')">原画册</div>
@@ -305,7 +306,7 @@
         </article>
         <article>
             <a class="thumbnail" href="img/work/01.jpg"><img src="img/work/01.jpg" alt=""/></a>
-            <div class="thumbnail-title"><a class="ext-link" href="./film_article.html?name=悬崖上的金鱼姬">借东西的小人阿莉埃蒂
+            <div class="thumbnail-title"><a class="ext-link" href="./film_article.html?name=借东西的小人阿莉埃蒂">借东西的小人阿莉埃蒂
             </a>
                 <div class="watch-movie watch-btn" onclick="toVideoDetail('借东西的小人阿莉埃蒂')">看电影</div>
                 <div class="watch-pic watch-btn" onclick="toWorkDetail('借东西的小人阿莉埃蒂')">原画册</div>
@@ -314,7 +315,7 @@
         </article>
         <article>
             <a class="thumbnail" href="img/work/02.jpg"><img src="img/work/02.jpg" alt=""/></a>
-            <div class="thumbnail-title"><a class="ext-link" href="./film_article.html?name=悬崖上的金鱼姬">借东西的小人阿莉埃蒂
+            <div class="thumbnail-title"><a class="ext-link" href="./film_article.html?name=借东西的小人阿莉埃蒂">借东西的小人阿莉埃蒂
             </a>
                 <div class="watch-movie watch-btn" onclick="toVideoDetail('借东西的小人阿莉埃蒂')">看电影</div>
                 <div class="watch-pic watch-btn" onclick="toWorkDetail('借东西的小人阿莉埃蒂')">原画册</div>
@@ -322,6 +323,22 @@
             <p>虽然患有心脏方面的疾病，但是少年翔（神木隆之介配音）的父母依然对他疏于呵护。为了准备即将到来的手术，翔来到了位于偏远乡间的姨婆（竹下景子配音）家静养。</p>
         </article>
     </section>
+
+
+    <!--
+    = ===============================================
+    = alert
+    = ===============================================
+    -->
+    <div role="alert" class="work message message--success a-fadein fade in" style="top: 20px; z-index: 2004;display: none;">
+        <h3>叮咚！您收到一条提示信息~</h3>
+        <button type="button" class="close" aria-label="Close" onclick="closeAlert()"><span aria-hidden="true">×</span></button>
+        <p class="message__content">您可以在浏览该页面时，听听我们推荐的 <span style="color: #333399;;">宫崎骏电影插曲</span>~</p>
+        <p>
+            <button type="button" class="btn btn-primary" onclick="getASong()">来一首</button>
+            <button type="button" class="btn btn-default" onclick="closeAlert()">不了，谢谢！</button>
+        </p>
+    </div>
 
     <!-- Footer -->
     <footer id="footer">
@@ -338,6 +355,10 @@
     function toWorkDetail(name) {
         // console.log(name)
         let url = './work_detail.html?name=' + name;
+        // if (name === "借东西的小人阿莉埃蒂"){
+        //     window.open('https://baike.baidu.com/item/%E5%80%9F%E4%B8%9C%E8%A5%BF%E7%9A%84%E5%B0%8F%E4%BA%BA%E9%98%BF%E8%8E%89%E5%9F%83%E8%92%82', "_blank");
+        //     return ;
+        // }
         url = encodeURI(url);
         window.open(url, "_blank");
     }
@@ -348,6 +369,23 @@
         url = encodeURI(url);
         window.open(url, "_self");
     }
+
+    function showAlert() {
+        const message = $('.message');
+        message.css('display', 'block');
+        setTimeout(function () {
+            message.css('display', 'none');
+        }, 50000)
+    }
+    function closeAlert() {
+        const message = $('.message');
+        message.css('display', 'none');
+    }
+    function getASong(){
+        window.open('./music.html', "_blank");
+        closeAlert();
+    }
+    showAlert()
 </script>
 </body>
 </html>
