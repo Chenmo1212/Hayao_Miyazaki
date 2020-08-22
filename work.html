@@ -333,10 +333,11 @@
     <div role="alert" class="work message message--success a-fadein fade in" style="top: 20px; z-index: 2004;display: none;">
         <h3>叮咚！您收到一条提示信息~</h3>
         <button type="button" class="close" aria-label="Close" onclick="closeAlert()"><span aria-hidden="true">×</span></button>
-        <p class="message__content">您可以在浏览该页面时，听听我们推荐的 <span style="color: #333399;;">宫崎骏电影插曲</span>~</p>
+        <p class="message__content">您可以在浏览该页面时，可以在<span style="text-decoration: underline;">另一个标签页</span>听听专门为您推荐的 <span style="color: #333399;">宫崎骏电影插曲</span>~</p>
         <p>
             <button type="button" class="btn btn-primary" onclick="getASong()">来一首</button>
             <button type="button" class="btn btn-default" onclick="closeAlert()">不了，谢谢！</button>
+            <button type="button" class="btn btn-default" onclick="closeForever()">别再出现了！</button>
         </p>
     </div>
 
@@ -360,7 +361,7 @@
         //     return ;
         // }
         url = encodeURI(url);
-        window.open(url, "_blank");
+        window.open(url, "_self");
     }
 
     function toVideoDetail(name) {
@@ -375,17 +376,29 @@
         message.css('display', 'block');
         setTimeout(function () {
             message.css('display', 'none');
-        }, 50000)
+        }, 5000)
     }
     function closeAlert() {
         const message = $('.message');
         message.css('display', 'none');
     }
     function getASong(){
-        window.open('./music.html', "_blank");
+        window.open('./music.html?name=风之谷', "_blank");
         closeAlert();
     }
-    showAlert()
+    function closeForever() {
+        localStorage.setItem('closeTip', JSON.stringify(true));
+        closeAlert();
+    }
+    if (typeof localStorage.closeTip === 'undefined'){
+        setTimeout(function () {
+            showAlert();
+        }, 2000)
+    } else if (!JSON.parse(localStorage.closeTip)){
+        setTimeout(function () {
+            showAlert();
+        }, 2000)
+    }
 </script>
 </body>
 </html>

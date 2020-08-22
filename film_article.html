@@ -63,7 +63,7 @@
 <nav id="header-navbar" class="navbar navbar-expand-lg py-4">
     <div class="container">
         <a class="navbar-brand d-flex align-items-center text-white" href="./index.html">
-            <h3 class="font-weight-bolder mb-0"><img src="./img/logo3.png" alt="" width="80px"></h3>
+            <h3 class="font-weight-bolder mb-0"><img src="./img/logo3.png" alt="" style="width: 80px;"></h3>
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-nav-header"
                 aria-controls="navbar-nav-header" aria-expanded="false" aria-label="Toggle navigation">
@@ -187,6 +187,21 @@
         </div>
     </div>
 </section>
+<!--
+= ===============================================
+= alert
+= ===============================================
+-->
+<div role="alert" class="work message message--success a-fadein fade in" style="top: 20px; z-index: 2004;display: none;">
+    <h3>叮咚！您收到一条提示信息~</h3>
+    <button type="button" class="close" aria-label="Close" onclick="closeAlert()"><span aria-hidden="true">×</span></button>
+    <p class="message__content">浏览该页面时，在<span style="text-decoration: underline;">另一个标签页</span>搭配上 <span style="color: #333399;">电影原声带</span>体验更佳哦~</p>
+    <p>
+        <button type="button" class="btn btn-primary" onclick="getASong()">来一首</button>
+        <button type="button" class="btn btn-default" onclick="closeAlert()">不了，谢谢！</button>
+        <button type="button" class="btn btn-default" onclick="closeForever()">别再出现了！</button>
+    </p>
+</div>
 <!-- End of Contact Form Section -->
 <!-- Features Section-->
 <!-- Client Section -->
@@ -309,6 +324,36 @@
         }
     }
     $(".entry").html(content);
+
+
+    function showAlert() {
+        const message = $('.message');
+        message.css('display', 'block');
+        setTimeout(function () {
+            message.css('display', 'none');
+        }, 5000)
+    }
+    function closeAlert() {
+        const message = $('.message');
+        message.css('display', 'none');
+    }
+    function getASong(){
+        window.open('./music.html?name=' + arg, "_blank");
+        closeAlert();
+    }
+    function closeForever() {
+        localStorage.setItem('closeTip', JSON.stringify(true));
+        closeAlert();
+    }
+    if (typeof localStorage.closeTip === 'undefined'){
+        setTimeout(function () {
+            showAlert();
+        }, 2000)
+    } else if (!JSON.parse(localStorage.closeTip)){
+        setTimeout(function () {
+            showAlert();
+        }, 2000)
+    }
 </script>
 </body>
 

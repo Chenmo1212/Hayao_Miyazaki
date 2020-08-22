@@ -5,6 +5,7 @@
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <link rel="stylesheet" href="./css/main.css"/>
+    <link rel="stylesheet" href="./css/loading.css"/>
     <noscript>
         <style>
             body:before {
@@ -37,7 +38,7 @@
 
     <!-- Header -->
     <header id="header">
-        <h1 class="hd-title">宫崎骏作品集</h1>
+        <h1 class="hd-title"><a href="#" class="hd-title-a">宫崎骏作品集</a></h1>
         <h3 class="hd-subtitle">宫崎骏作品集</h3>
         <p class="desc">宫崎骏的作品以深刻的文化背景、纯真的感情过程、梦幻般的美丽影像著称宫崎骏导演的主题是永远以爱情的纯真、自然的和谐、永远美好的生活、深刻的反省为目标。</p>
     </header>
@@ -50,6 +51,21 @@
             <p>古老帝国拉比达是一座漂浮在空中的巨大的机器岛，传说那里已经无人居住，蕴藏着巨大的财富。因此，无论军方还是海盗，都在找寻着这座传说中的飞行岛。</p>
         </article>
     </section>
+    <!--
+    = ===============================================
+    = alert
+    = ===============================================
+    -->
+    <div role="alert" class="work message message--success a-fadein fade in" style="top: 20px; z-index: 2004;display: none;">
+        <h3>叮咚！您收到一条提示信息~</h3>
+        <button type="button" class="close" aria-label="Close" onclick="closeAlert()"><span aria-hidden="true">×</span></button>
+        <p class="message__content">浏览该页面时，在<span style="text-decoration: underline;">另一个标签页</span>搭配上 <span style="color: #333399;">电影原声带</span>体验更佳哦~</p>
+        <p>
+            <button type="button" class="btn btn-primary" onclick="getASong()">来一首</button>
+            <button type="button" class="btn btn-default" onclick="closeAlert()">不了，谢谢！</button>
+            <button type="button" class="btn btn-default" onclick="closeForever()">别再出现了！</button>
+        </p>
+    </div>
 
     <!-- Footer -->
     <footer id="footer">
@@ -75,7 +91,8 @@
     }
     console.log(workObj);
 
-    $('.hd-title').text(workObj.title);
+    $('.hd-title-a').text(workObj.title);
+    $('.hd-title-a').attr("href", "./film_article.html?name=" + arg);
     $('.hd-subtitle').text(workObj.year + "年");
     $('.desc').text(workObj.desc);
 
@@ -95,8 +112,37 @@
     }
     // window.open();
     document.getElementById('thumbnails').innerHTML = re;
+
+
+    function showAlert() {
+        const message = $('.message');
+        message.css('display', 'block');
+        setTimeout(function () {
+            message.css('display', 'none');
+        }, 5000)
+    }
+    function closeAlert() {
+        const message = $('.message');
+        message.css('display', 'none');
+    }
+    function getASong(){
+        window.open('./music.html?name=' + arg, "_blank");
+        closeAlert();
+    }
+    function closeForever() {
+        localStorage.setItem('closeTip', JSON.stringify(true));
+        closeAlert();
+    }
+    if (typeof localStorage.closeTip === 'undefined'){
+        setTimeout(function () {
+            showAlert();
+        }, 2000)
+    } else if (!JSON.parse(localStorage.closeTip)){
+        setTimeout(function () {
+            showAlert();
+        }, 2000)
+    }
 </script>
-<script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
 <script src="./js/skel.min.js"></script>
 <script src="./js/main.js"></script>
 

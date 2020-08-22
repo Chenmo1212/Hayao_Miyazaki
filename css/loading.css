@@ -88,9 +88,9 @@
 .candle1__eyes, .candle2__eyes {
     position: absolute;
     left: 50%;
-    top: 0%;
+    top: 0;
     width: 35px;
-    height: 30;
+    height: 30px;
     transform: translate(-50%, 0%);
 }
 
@@ -164,7 +164,7 @@
     border-bottom: 0;
     border-radius: 3px;
     transform: translate(60%, -15%);
-    transform-origin: center right;
+    /*transform-origin: center right;*/
     box-shadow: -2px 0 0 #95c6f2 inset;
     animation: shake-left 3s infinite linear;
 }
@@ -219,7 +219,7 @@
     display: block;
     width: 16px;
     height: 20px;
-    background-color: red;
+    /*background-color: red;*/
     border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
     background: #FF9800;
     transform: translate(-50%, -50%);
@@ -339,7 +339,7 @@
     0%, 64%, 100% {
         width: 0;
         height: 0;
-        top: 0%;
+        top:0;
     }
 
     65% {
@@ -421,49 +421,49 @@
 @keyframes stick-animation {
     0%, 40% {
         left: 50%;
-        top: 0%;
+        top:0;
         transform: translate(-50%, -100%);
     }
 
     50%, 54% {
         left: 50%;
-        top: 0%;
+        top:0;
         transform: translate(-50%, -100%);
     }
 
     59% {
         left: 50%;
-        top: 0%;
+        top:0;
         transform: translate(-50%, -100%);
     }
 
     62% {
         left: 50%;
-        top: 0%;
+        top:0;
         transform: rotateZ(-15deg) translate(-50%, -100%);
     }
 
     65% {
         left: 50%;
-        top: 0%;
+        top:0;
         transform: rotateZ(15deg) translate(-50%, -100%);
     }
 
     70% {
         left: 50%;
-        top: 0%;
+        top:0;
         transform: rotateZ(-5deg) translate(-50%, -100%);
     }
 
     72% {
         left: 50%;
-        top: 0%;
+        top:0;
         transform: rotateZ(5deg) translate(-50%, -100%);
     }
 
     74%, 84% {
         left: 50%;
-        top: 0%;
+        top:0;
         transform: rotateZ(0deg) translate(-50%, -100%);
     }
 
@@ -473,7 +473,7 @@
 
     92% {
         left: 50%;
-        top: 0%;
+        top:0;
         transform: translate(-50%, -100%);
     }
 }
@@ -527,7 +527,7 @@
         display: inline-block;
         border-radius: 100%;
         background: #673C63;
-        border-width: 0 0 0 0;
+        /*border-width: 0 0 0 0;*/
         border: 0 solid #673C63;
         transform: translate(-90%, 0%);
     }
@@ -553,7 +553,7 @@
         display: inline-block;
         border-radius: 100%;
         background: #673C63;
-        border-width: 0 0 0 0;
+        /*border-width: 0 0 0 0;*/
         border: 0 solid #673C63;
         transform: translate(-80%, 0%);
     }
@@ -708,7 +708,6 @@
     margin: 0;
     color: #67c23a;
     text-align: left;
-    margin: 0;
 }
 
 .message p .close {
@@ -725,12 +724,13 @@
 }
 
 .message--success {
-    background-color: #f0f9eb;
-    border-color: #e1f3d8;
+    background-color: #fff;
+    border-color: #d1d1d1;
 }
 
 .work.message {
     min-width: 440px;
+    width: 440px;
     text-align: left;
 }
 
