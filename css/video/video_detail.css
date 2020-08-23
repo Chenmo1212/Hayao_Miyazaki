@@ -81,6 +81,7 @@ video {
     width: 100%;
     height: auto;
     cursor: pointer;
+    border:2px solid #fff;
 }
 
 .ckin__player {
@@ -153,7 +154,8 @@ video {
     background: none;
     border: 0;
     line-height: 1;
-    color: #00CF7D;
+    color: #fff;
+    /*color: #00CF7D;*/
     outline: 0;
     padding: 0;
     cursor: pointer;
@@ -174,7 +176,8 @@ video {
     background: none;
     border: 0;
     line-height: 1;
-    color: #00CF7D;
+    color: #fff;
+    /*color: #00CF7D;*/
     text-align: center;
     outline: 0;
     padding: 0;
@@ -259,7 +262,8 @@ video {
 
 .default .progress__filled {
     width: 0;
-    background: #00CF7D;
+    background: #fff;
+    /*background: #00CF7D;*/
     -ms-flex: 0;
     flex: 0;
     -ms-flex-preferred-size: 0%;
@@ -303,7 +307,8 @@ video {
     background: none;
     border: 0;
     line-height: 1;
-    color: #00CF7D;
+    /*color: #00CF7D;*/
+    color: #fff;
     outline: 0;
     padding: 0;
     cursor: pointer;
@@ -324,7 +329,8 @@ video {
     background: none;
     border: 0;
     line-height: 1;
-    color: #00CF7D;
+    color: #fff;
+    /*color: #00CF7D;*/
     text-align: center;
     outline: 0;
     padding: 0;
@@ -409,7 +415,8 @@ video {
 
 .minimal .progress__filled {
     width: 0;
-    background: #00CF7D;
+    background: #fff;
+    /*background: #00CF7D;*/
     -ms-flex: 0;
     flex: 0;
     -ms-flex-preferred-size: 0%;
@@ -452,7 +459,8 @@ video {
     background: none;
     border: 0;
     line-height: 1;
-    color: #00CF7D;
+    color: #fff;
+    /*color: #00CF7D;*/
     outline: 0;
     padding: 0;
     cursor: pointer;
@@ -473,7 +481,8 @@ video {
     background: none;
     border: 0;
     line-height: 1;
-    color: #00CF7D;
+    /*color: #00CF7D;*/
+    color: #fff;
     text-align: center;
     outline: 0;
     padding: 0;
@@ -559,11 +568,12 @@ video {
 
 .compact .progress__filled {
     width: 0;
-    background: #00CF7D;
+    /*background: #00CF7D;*/
+    background: #fff;
     -ms-flex: 0;
     flex: 0;
     -ms-flex-preferred-size: 0%;
-    flex-basis: 0%;
+    flex-basis: 0;
     border-radius: 4px;
 }
 
@@ -579,6 +589,7 @@ video::-webkit-media-controls-enclosure {
 
 .container {
     position: relative;
+    z-index: 2;
 }
 .container .title {
     display: flex;
@@ -588,6 +599,7 @@ video::-webkit-media-controls-enclosure {
 .container .heading {
     margin: 20px 0;
     text-align: right;
+    color: #fff;
 }
 
 .container .return {

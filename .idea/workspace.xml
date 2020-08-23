@@ -1,25 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0a2a7922-752a-48ad-8738-4d44ff8f1b76" name="默认更改列表" comment="">
-      <change afterPath="$PROJECT_DIR$/img/blog/mao1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/blog/mao2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/product/qian1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/product/qian2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/product/qian3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/video/haer.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/video/haer2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/video/haer3.png" afterDir="false" />
+    <list default="true" id="0a2a7922-752a-48ad-8738-4d44ff8f1b76" name="默认更改列表" comment="video bg">
+      <change afterPath="$PROJECT_DIR$/img/video_detail/winterForest.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/video_bg.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/loading.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/loading.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/music.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/music.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/to_top.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/to_top.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/video/video.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/video/video.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product.html" beforeDir="false" afterPath="$PROJECT_DIR$/product.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/video/video_detail.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/video/video_detail.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/video.html" beforeDir="false" afterPath="$PROJECT_DIR$/video.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/work.html" beforeDir="false" afterPath="$PROJECT_DIR$/work.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/video_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/video_detail.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -60,11 +48,11 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/video.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="289">
-                  <caret line="187" column="35" lean-forward="true" selection-start-line="187" selection-start-column="35" selection-end-line="187" selection-end-column="35" />
+                <state relative-caret-position="-941">
+                  <caret line="18" column="49" selection-start-line="18" selection-start-column="49" selection-end-line="18" selection-end-column="49" />
                   <folding>
                     <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                     <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" />
@@ -80,6 +68,38 @@
                     <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#style#0;n#p#0;n#div#1;n#div#0;n#!!top" expanded="true" />
                   </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/video_detail.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="225">
+                  <caret line="42" column="21" lean-forward="true" selection-start-line="42" selection-start-column="21" selection-end-line="42" selection-end-column="21" />
+                  <folding>
+                    <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                    <element signature="n#script#4;n#body#0;n#html#0;n#!!top" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://F:/个人作品/05 程序猿时代/04 H5 demo/040 背景动画【下雪】/下雪.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="405">
+                  <caret line="27" column="7" lean-forward="true" selection-start-line="27" selection-start-column="7" selection-end-line="27" selection-end-column="7" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/js/video_bg.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="130">
+                  <caret line="729" column="18" selection-start-line="729" selection-start-column="18" selection-end-line="729" selection-end-column="18" />
                 </state>
               </provider>
             </entry>
@@ -153,10 +173,10 @@
       </split-first>
       <split-second>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/css/loading.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="798">
+                <state relative-caret-position="933">
                   <caret line="791" column="28" selection-start-line="791" selection-start-column="28" selection-end-line="791" selection-end-column="28" />
                 </state>
               </provider>
@@ -174,8 +194,17 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/css/style.min.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="322">
-                  <caret line="1085" column="14" lean-forward="true" selection-start-line="1085" selection-start-column="14" selection-end-line="1085" selection-end-column="14" />
+                <state relative-caret-position="952">
+                  <caret line="1088" column="1" lean-forward="true" selection-start-line="1088" selection-start-column="1" selection-end-line="1088" selection-end-column="1" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/css/video/video_detail.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="130">
+                  <caret line="585" column="7" selection-start-line="585" selection-start-column="7" selection-end-line="585" selection-end-column="7" />
                 </state>
               </provider>
             </entry>
@@ -195,10 +224,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>playback_wrapper</find>
-      <find>no</find>
-      <find>==</find>
-      <find>bg-layer</find>
       <find>title</find>
       <find>currIndex</find>
       <find>target=&quot;_blank&quot;</find>
@@ -225,9 +250,12 @@
       <find>width=&quot;80px&quot;</find>
       <find>top</find>
       <find>top center</find>
+      <find>sakura_point_vsh</find>
+      <find>container</find>
+      <find>video</find>
+      <find>var</find>
     </findStrings>
     <replaceStrings>
-      <replace>&lt;p class=&quot;text-center&quot;&gt;</replace>
       <replace>onclick=&quot;toVideoDetail('风之谷')&quot;&gt;看电影</replace>
       <replace>&lt;h5 class=&quot;font-weight-bold mt-3&quot;</replace>
       <replace>font-weight-bold mt-4&quot;</replace>
@@ -257,6 +285,7 @@
       <replace>style=&quot;width:100%;&quot;</replace>
       <replace>style=&quot;width:80px;&quot;</replace>
       <replace>center center</replace>
+      <replace>let</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -268,7 +297,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/js/jquery-1.8.3.min.js" />
         <option value="$PROJECT_DIR$/css/test/test.html" />
         <option value="$PROJECT_DIR$/test/blog.html" />
         <option value="$PROJECT_DIR$/test/test.html" />
@@ -286,14 +314,12 @@
         <option value="$PROJECT_DIR$/js/main.js" />
         <option value="$PROJECT_DIR$/test.html" />
         <option value="$USER_HOME$/Desktop/index.html" />
-        <option value="$PROJECT_DIR$/css/video/video_detail.css" />
         <option value="$PROJECT_DIR$/js/test.js" />
         <option value="$PROJECT_DIR$/js/text.js" />
         <option value="$PROJECT_DIR$/js/data.js" />
         <option value="$PROJECT_DIR$/js/music.js" />
         <option value="$PROJECT_DIR$/film_article.html" />
         <option value="$PROJECT_DIR$/motto.html" />
-        <option value="$PROJECT_DIR$/video_detail.html" />
         <option value="$PROJECT_DIR$/work_detail.html" />
         <option value="$PROJECT_DIR$/js/cursor/cursor-effects.js" />
         <option value="$PROJECT_DIR$/js/cursor/fairyDustCursor.js" />
@@ -316,7 +342,12 @@
         <option value="$PROJECT_DIR$/css/loading.css" />
         <option value="$PROJECT_DIR$/work.html" />
         <option value="$PROJECT_DIR$/css/video/video.css" />
+        <option value="$PROJECT_DIR$/js/videp_bg.js" />
         <option value="$PROJECT_DIR$/video.html" />
+        <option value="$PROJECT_DIR$/index2.html" />
+        <option value="$PROJECT_DIR$/css/video/video_detail.css" />
+        <option value="$PROJECT_DIR$/video_detail.html" />
+        <option value="$PROJECT_DIR$/js/video_bg.js" />
       </list>
     </option>
   </component>
@@ -350,11 +381,6 @@
               <item name="css" type="462c0819:PsiDirectoryNode" />
               <item name="video" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="00 宫崎骏" type="b2602c69:ProjectViewProjectNode" />
-              <item name="00 宫崎骏" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -371,18 +397,18 @@
     <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="I:\00 宫崎骏\img\video_detail" />
+      <recent name="I:\00 宫崎骏\img\blog" />
+      <recent name="I:\00 宫崎骏\img\product" />
+      <recent name="I:\00 宫崎骏\img\video" />
+      <recent name="I:\00 宫崎骏\img\blog-detail" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="I:\00 宫崎骏\img\blog" />
       <recent name="I:\00 宫崎骏\img\icons" />
       <recent name="F:\学习\03 大三\0302 大三下\024 商务网站设计\09 宫崎骏\宫崎骏\00 宫崎骏\js" />
       <recent name="F:\学习\03 大三\0302 大三下\024 商务网站设计\09 宫崎骏\宫崎骏\00 宫崎骏\css\video" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="I:\00 宫崎骏\img\blog" />
-      <recent name="I:\00 宫崎骏\img\product" />
-      <recent name="I:\00 宫崎骏\img\video" />
-      <recent name="I:\00 宫崎骏\img\blog-detail" />
-      <recent name="I:\00 宫崎骏" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -423,7 +449,7 @@
       <workItem from="1597738341721" duration="23683000" />
       <workItem from="1597808047281" duration="5864000" />
       <workItem from="1597907987683" duration="62168000" />
-      <workItem from="1598159320648" duration="2700000" />
+      <workItem from="1598159320648" duration="8425000" />
     </task>
     <task id="LOCAL-00001" summary="logo">
       <created>1597560186217</created>
@@ -586,17 +612,24 @@
       <option name="project" value="LOCAL" />
       <updated>1598153246961</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="article">
+      <created>1598163445470</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1598163445470</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="139221000" />
+    <option name="totallyTimeSpent" value="144946000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="22" width="1936" height="1066" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15138593" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15138593" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -610,7 +643,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.5309829" />
+      <window_info active="true" anchor="bottom" id="Messages" order="11" visible="true" weight="0.5309829" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -636,27 +669,10 @@
     <MESSAGE value="add music tip" />
     <MESSAGE value="add cursor style" />
     <MESSAGE value="article" />
-    <option name="LAST_COMMIT_MESSAGE" value="article" />
+    <MESSAGE value="video bg" />
+    <option name="LAST_COMMIT_MESSAGE" value="video bg" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/test/test.html" />
-    <entry file="file://$PROJECT_DIR$/vendor/lightcase/lightcase.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="403" column="4" lean-forward="true" selection-start-line="403" selection-start-column="4" selection-end-line="403" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/aos.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="59" selection-start-column="59" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/aos.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/vendor/bootstrap/bootstrap.min.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="63">
@@ -744,13 +760,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/video/video_detail.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2290">
-          <caret line="190" column="35" lean-forward="true" selection-start-line="190" selection-start-column="35" selection-end-line="190" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/video.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="326">
@@ -806,17 +815,6 @@
             <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
             <element signature="n#style#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#div#4;n#body#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/video_detail.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="43" column="53" selection-start-line="43" selection-start-column="53" selection-end-line="43" selection-end-column="53" />
-          <folding>
-            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1038,20 +1036,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="1085" column="14" lean-forward="true" selection-start-line="1085" selection-start-column="14" selection-end-line="1085" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/loading.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="798">
-          <caret line="791" column="28" selection-start-line="791" selection-start-column="28" selection-end-line="791" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/work.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
@@ -1130,10 +1114,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/js/videp_bg.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/video.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="187" column="35" lean-forward="true" selection-start-line="187" selection-start-column="35" selection-end-line="187" selection-end-column="35" />
+        <state relative-caret-position="-941">
+          <caret line="18" column="49" selection-start-line="18" selection-start-column="49" selection-end-line="18" selection-end-column="49" />
           <folding>
             <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" />
@@ -1149,6 +1136,60 @@
             <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#style#0;n#p#0;n#div#1;n#div#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" selection-start-line="28" selection-end-line="1136" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/loading.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="933">
+          <caret line="791" column="28" selection-start-line="791" selection-start-column="28" selection-end-line="791" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="952">
+          <caret line="1088" column="1" lean-forward="true" selection-start-line="1088" selection-start-column="1" selection-end-line="1088" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/个人作品/05 程序猿时代/04 H5 demo/040 背景动画【下雪】/下雪.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="7" lean-forward="true" selection-start-line="27" selection-start-column="7" selection-end-line="27" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/video/video_detail.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="585" column="7" selection-start-line="585" selection-start-column="7" selection-end-line="585" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/video_detail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="42" column="21" lean-forward="true" selection-start-line="42" selection-start-column="21" selection-end-line="42" selection-end-column="21" />
+          <folding>
+            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#script#4;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/video_bg.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="729" column="18" selection-start-line="729" selection-start-column="18" selection-end-line="729" selection-end-column="18" />
         </state>
       </provider>
     </entry>

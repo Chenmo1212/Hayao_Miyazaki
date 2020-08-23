@@ -16,6 +16,36 @@
     <link rel="stylesheet" href="vendor/bootstrap/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.min.css">
     <link rel="stylesheet" href="css/video/video_detail.css">
+    <style type="text/css">
+
+        canvas {
+            position: absolute;
+            top: 0;
+            z-index: 1;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-repeat: repeat-x;
+            background-position: bottom center;
+            background-image: url(./img/video_detail/winterForest.png);
+            background-color: #133D7C !important;
+        }
+
+        #canvas {
+            position: absolute;
+            left: 0;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            margin: auto;
+        }
+
+    </style>
 
     <!-- Modernizr JS for IE8 support of HTML5 elements and media queries -->
     <script src="js/modernizr.js"></script>
@@ -26,17 +56,16 @@
     <div class="title">
         <div class="return">
             <a href="./video.html">
-                <img src="./img/icons/return_black.png" alt="" style="width: 40px;">
+                <img src="./img/icons/return.png" alt="" style="width: 40px;">
             </a>
         </div>
         <h2 class="heading" id="heading">Custom HTML5 Video Player with Ckins...</h2>
     </div>
-    <!--<div id="control-group" class="control-group">-->
-        <!--<div class="current">00:00</div>-->
-        <!--<div class="totalTime">00:00</div>-->
-    <!--</div>-->
     <video poster="" src="" data-ckin="default" data-overlay="1" id="video"></video>
 </div>
+
+<!--背景动画 -->
+<canvas id="canvas"></canvas>
 
 <script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
 <script type="text/javascript" src="./js/video.js"></script>
@@ -124,6 +153,86 @@
         }
     });
 </script>
-</body>
 
+<script>
+    (function (window) {
+        let canvas = document.getElementById('canvas');
+        let ctx = canvas.getContext('2d');
+        let canvasW = window.innerWidth;
+        let canvasH = window.innerHeight;
+        let particles = [];
+        let maxParticles = 500;
+
+        let random = function (min, max) {
+            return Math.random() * (max - min) + min
+        };
+
+        window.requestAnimationFrame = (function () {
+            let FPS = 60;
+
+            return window.requestAnimationFrame ||
+                window.webkitRequestAnimationFrame ||
+                window.mozRequestAnimationFrame ||
+                window.oRequestAnimationFrame ||
+                window.msRequestAnimationFrame ||
+                function (callBack) {
+                    window.setTimeout(callBack, 1000 / FPS)
+                }
+        })();
+
+        let Particle = function () {
+            this.x = Math.random() * canvasW;
+            this.y = Math.random() * canvasH;
+            this.r = random(1, 5);
+            this.alpha = random(0.3, 1);
+            this.velocity = {
+                x: random(-0.35, 0.35),
+                y: random(0.75, 1.5)
+            };
+
+            this.draw = function () {
+                ctx.fillStyle = 'rgba(255, 255, 255, ' + this.alpha + ')';
+                ctx.beginPath();
+                ctx.arc(this.x, this.y, this.r, 0, 2 * Math.PI, false);
+                ctx.closePath();
+                ctx.fill()
+            };
+
+            this.moving = function () {
+                this.x += this.velocity.x;
+                this.y += this.velocity.y;
+
+                if (this.y > canvasH) {
+                    this.x = Math.random() * canvasW;
+                    this.y = 0
+                }
+
+                this.draw()
+            }
+        };
+
+        init();
+
+        function init() {
+            canvas.width = canvasW;
+            canvas.height = canvasH;
+
+            for (let i = 0; i < maxParticles; i++) {
+                particles.push(new Particle())
+            }
+
+            animate()
+        }
+
+        function animate() {
+            ctx.clearRect(0, 0, canvasW, canvasH);
+            particles.forEach(function (particle) {
+                particle.moving()
+            });
+
+            requestAnimationFrame(animate)
+        }
+    })(window)
+</script>
+</body>
 </html>
