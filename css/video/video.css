@@ -14,10 +14,9 @@
 .single-member {
     width: 280px;
     /*float: left;*/
-    margin: 30px 2.5%;
     background-color: #fff;
     text-align: center;
-    /*position: relative;*/
+    margin: 20px auto;
 }
 
 .member-image img {

@@ -36,23 +36,9 @@
     opacity: .5;
 }
 
-.no-touch .cd-top:hover {
-    opacity: 1;
-    background: transparent url(../img/icons/rocket_up.png) no-repeat -164px -10px;
-    background-size: 1300%;
-}
-
 .cd-top.show-fire {
     opacity: 1;
     background: transparent url(../img/icons/rocket_up.png) no-repeat -294px -10px;
-    background-size: 1300%;
-}
-
-@media only screen and (min-width: 768px) {
-    .cd-top {
-        right: 20px;
-        bottom: 20px;
-    }
 }
 
 @media only screen and (min-width: 1024px) {
@@ -61,5 +47,30 @@
         width: 60px;
         right: 30px;
         bottom: 30px;
+    }
+}
+@media only screen and (min-width: 738px) {
+    .cd-top {
+        right: 20px;
+        bottom: 20px;
+        background: transparent url(../img/icons/rocket_up.png) no-repeat -45px -10px;
+        width: 60px;
+    }
+    .cd-top.show-fire {
+        opacity: 1;
+        background: transparent url(../img/icons/rocket_up.png) no-repeat -340px -10px;
+    }
+}
+@media only screen and (max-width: 738px) {
+    .cd-top {
+        right: 20px;
+        bottom: 20px;
+        background: transparent url(../img/icons/rocket_up.png) no-repeat -13px -10px;
+        background-size: 1000%;
+    }
+    .cd-top.show-fire {
+        opacity: 1;
+        background: transparent url(../img/icons/rocket_up.png) no-repeat -280px -10px;
+        background-size: 1000%;
     }
 }

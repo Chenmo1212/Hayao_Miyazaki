@@ -715,13 +715,3 @@ ul, li {
         width: 100%;
     }
 }
-
-
-.float-ani {
-    animation: heart 1.3s ease-in-out 2.7s infinite alternate;
-}
-
-@keyframes heart{
-    from{transform:translate(0,0)}
-    to{transform:translate(0,6px)}
-}

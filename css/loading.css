@@ -783,4 +783,12 @@
         left: 65%;
         width: 220px;
     }
+    .work.message {
+        min-width: 90%;
+        width: 90%;
+        text-align: left;
+    }
+    button {
+        padding: 0.75em 1em;
+    }
 }

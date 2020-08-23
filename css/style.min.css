@@ -1018,6 +1018,7 @@ section {
     padding-left: 30px;
     min-height: 24px;
 }
+
 .bjh-blockquote:before {
     content: "";
     display: inline-block;
@@ -1030,11 +1031,13 @@ section {
     left: 0;
     top: 3px;
 }
+
 .bjh-strong {
     font-size: 18px;
     color: #333;
     font-weight: 700;
 }
+
 .bjh-h3 {
     font-size: 18px;
     font-weight: 700;
@@ -1042,6 +1045,7 @@ section {
     position: relative;
     padding-left: 9px;
 }
+
 .bjh-h3:before {
     content: "";
     display: inline-block;
@@ -1052,10 +1056,12 @@ section {
     top: 3px;
     left: 0;
 }
+
 .article-content .normal {
     display: block;
     margin: 0 auto;
 }
+
 /*=====  End of article  ======*/
 /*==============================
 =            index            =
@@ -1063,7 +1069,49 @@ section {
 .text-indent {
     text-indent: 2em;
 }
+
 .margin-0 {
     margin: 0;
 }
+
 /*=====  End of article  ======*/
+
+
+/*float pic ani*/
+.float-pic {
+    position: absolute;
+    display: none;
+}
+
+.float-item1 {
+    bottom: 200px;
+    left: 50px;
+}
+
+.float-item2 {
+    bottom: 2200px;
+    left: 50px;
+}
+.float-item3 {
+    bottom: 1100px;
+    right: 50px;
+}
+
+.float-ani {
+    animation: heart 1.3s ease-in-out 2.7s infinite alternate;
+}
+
+@keyframes heart {
+    from {
+        transform: translate(0, 0)
+    }
+    to {
+        transform: translate(0, 20px)
+    }
+}
+@media only screen and (min-width: 1024px) {
+    .float-pic,
+    .float-pic img {
+        display: block;
+    }
+}
