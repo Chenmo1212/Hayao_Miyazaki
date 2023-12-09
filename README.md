@@ -65,7 +65,7 @@
 ![movie.png](assets/screenshots/movie.png)
 ![works.png](assets/screenshots/works.png)
 ![article.png](assets/screenshots/article.png)
-![about.png](assets/screenshots/about.png)
+![about.png](assets/screenshots/aboutPage.png)
 
 ## Contributing
 Contributions are welcome! Please feel free to submit a pull request or open an issue if you find a bug or have a suggestion for a new feature.
