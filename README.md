@@ -30,7 +30,7 @@
     </a>
 </p>
 
-![homepage.png](assets%2Fscreenshots%2Fhomepage.png)
+![homepage.png](assets/screenshots/homepage.png)
 
 ## Description
 
@@ -59,13 +59,13 @@
 3. Then run `index.html` as a local server.
 
 ## Screenshots
-![homepage.png](assets%2Fscreenshots%2Fhomepage.png)
-![paintings.png](assets%2Fscreenshots%2Fpaintings.png)
-![music.png](assets%2Fscreenshots%2Fmusic.png)
-![movie.png](assets%2Fscreenshots%2Fmovie.png)
-![works.png](assets%2Fscreenshots%2Fworks.png)
-![article.png](assets%2Fscreenshots%2Farticle.png)
-![about.png](assets%2Fscreenshots%2Fabout.png)
+![homepage.png](assets/screenshots/homepage.png)
+![paintings.png](assets/screenshots/paintings.png)
+![music.png](assets/screenshots/music.png)
+![movie.png](assets/screenshots/movie.png)
+![works.png](assets/screenshots/works.png)
+![article.png](assets/screenshots/article.png)
+![about.png](assets/screenshots/about.png)
 
 ## Contributing
 Contributions are welcome! Please feel free to submit a pull request or open an issue if you find a bug or have a suggestion for a new feature.
