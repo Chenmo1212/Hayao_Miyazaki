@@ -80,27 +80,27 @@ body,
 }
 
 #p1 {
-  background: url(../img/motto/bg2.jpg) left 100% no-repeat;
+  background: url(../assets/img/motto/bg2.jpg) left 100% no-repeat;
   background-size: cover;
 }
 
 #p2 {
-  background: url(../img/motto/bg3.jpg) left 100% no-repeat;
+  background: url(../assets/img/motto/bg3.jpg) left 100% no-repeat;
   background-size: cover;
 }
 
 #p3 {
-  background: url(../img/motto/bg4.jpg) left 100% no-repeat;
+  background: url(../assets/img/motto/bg4.jpg) left 100% no-repeat;
   background-size: cover;
 }
 
 #p4 {
-  background: url(../img/motto/bg5.jpg) left 100% no-repeat;
+  background: url(../assets/img/motto/bg5.jpg) left 100% no-repeat;
   background-size: cover;
 }
 
 #p5 {
-  background: url(../img/motto/bg6.jpg) left 100% no-repeat;
+  background: url(../assets/img/motto/bg6.jpg) left 100% no-repeat;
   background-size: cover;
 }
 

@@ -10,7 +10,7 @@
     overflow: hidden;
     text-indent: 100%;
     white-space: nowrap;
-    background: transparent url(../img/icons/rocket_up.png) no-repeat -34px -10px;
+    background: transparent url(../assets/img/icons/rocket_up.png) no-repeat -34px -10px;
     background-size: 1300%;
     visibility: hidden;
     opacity: 0;
@@ -38,7 +38,7 @@
 
 .cd-top.show-fire {
     opacity: 1;
-    background: transparent url(../img/icons/rocket_up.png) no-repeat -294px -10px;
+    background: transparent url(../assets/img/icons/rocket_up.png) no-repeat -294px -10px;
 }
 
 @media only screen and (min-width: 1024px) {
@@ -53,24 +53,24 @@
     .cd-top {
         right: 20px;
         bottom: 20px;
-        background: transparent url(../img/icons/rocket_up.png) no-repeat -45px -10px;
+        background: transparent url(../assets/img/icons/rocket_up.png) no-repeat -45px -10px;
         width: 60px;
     }
     .cd-top.show-fire {
         opacity: 1;
-        background: transparent url(../img/icons/rocket_up.png) no-repeat -340px -10px;
+        background: transparent url(../assets/img/icons/rocket_up.png) no-repeat -340px -10px;
     }
 }
 @media only screen and (max-width: 738px) {
     .cd-top {
         right: 20px;
         bottom: 20px;
-        background: transparent url(../img/icons/rocket_up.png) no-repeat -13px -10px;
+        background: transparent url(../assets/img/icons/rocket_up.png) no-repeat -13px -10px;
         background-size: 1000%;
     }
     .cd-top.show-fire {
         opacity: 1;
-        background: transparent url(../img/icons/rocket_up.png) no-repeat -280px -10px;
+        background: transparent url(../assets/img/icons/rocket_up.png) no-repeat -280px -10px;
         background-size: 1000%;
     }
 }

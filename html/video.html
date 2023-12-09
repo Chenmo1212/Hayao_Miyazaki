@@ -19,7 +19,7 @@
     <link rel="stylesheet" href="../css/to_top.css">
 
     <!-- Modernizr JS for IE8 support of HTML5 elements and media queries -->
-    <script src="../js/modernizr.js"></script>
+    <script src="../vendor/modernizr.js"></script>
 </head>
 
 <body data-spy="scroll" data-target="#navbar" class="static-layout"
@@ -33,7 +33,7 @@
 <nav id="header-navbar" class="navbar navbar-expand-lg py-4">
     <div class="container">
         <a class="navbar-brand d-flex align-items-center text-white" href="../index.html">
-            <h3 class="font-weight-bolder mb-0"><img src="../img/logo3.png" alt="" style="width:80px;"></h3>
+            <h3 class="font-weight-bolder mb-0"><img src="../assets/img/logo3.png" alt="" style="width:80px;"></h3>
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-nav-header"
                 aria-controls="navbar-nav-header" aria-expanded="false" aria-label="Toggle navigation">
@@ -103,12 +103,12 @@
 
     <div class="sidenav-content">
         <p>
-            Bug修复、功能添加，意见反馈等，记得找我哦，终生免费保修~
+            Bug修复、功能添加，意见反馈等
         </p>
         <p>
-            <span class="fs-16 primary-color">(+86) 15871137081</span>
+            <span class="fs-16 primary-color">(+86) 12312341234</span>
         </p>
-        <p>chenmo1212@qq.com</p>
+        <p>chenmo991212@gmail.com</p>
     </div>
 </div>
 
@@ -144,7 +144,7 @@
 = ===============================================
 -->
 
-<div class="jumbotron jumbotron-single d-flex align-items-center" style="background-image: url(../img/video/cover.jpg)">
+<div class="jumbotron jumbotron-single d-flex align-items-center" style="background-image: url(../assets/img/video/cover.jpg)">
     <div class="container text-center">
         <h1 class="display-2 mb-4">热门电影</h1>
     </div>
@@ -160,7 +160,7 @@
     <!-- effect html -->
     <div class="single-member effect-3">
         <div class="member-image">
-            <img src="../img/bg.jpg" alt="Member">
+            <img src="../assets/img/bg.jpg" alt="Member">
         </div>
         <div class="member-info">
             <h3>Sophia</h3>
@@ -178,13 +178,13 @@
 
 <div class="float-pic-container">
     <div class="float-pic float-item1">
-        <img class="float-ani" src="../img/video/haer.png" alt="" style="width: 150px;">
+        <img class="float-ani" src="../assets/img/video/haer.png" alt="" style="width: 150px;">
     </div>
     <div class="float-pic float-item2">
-        <img class="float-ani" src="../img/video/haer2.png" alt="" style="width: 150px;">
+        <img class="float-ani" src="../assets/img/video/haer2.png" alt="" style="width: 150px;">
     </div>
     <div class="float-pic float-item3" style="right:0;">
-        <img class="float-ani" src="../img/video/haer3.png" alt="" style="width: 150px;">
+        <img class="float-ani" src="../assets/img/video/haer3.png" alt="" style="width: 150px;">
     </div>
 </div>
 
@@ -229,7 +229,7 @@
 </footer>
 
 <!-- External JS -->
-<script type="text/javascript" src="../js/jquery-1.8.3.min.js"></script>
+<script type="text/javascript" src="../vendor/jquery-1.8.3.min.js"></script>
 <script src="../vendor/bootstrap/popper.min.js"></script>
 <script src="../vendor/bootstrap/bootstrap.min.js"></script>
 <script src="../vendor/select2/select2.min.js "></script>
@@ -238,39 +238,40 @@
 <script src="../vendor/isotope/isotope.min.js"></script>
 <script src="../vendor/lightcase/lightcase.js"></script>
 <script src="../vendor/waypoints/waypoint.min.js"></script>
-<script src="../js/aos.js"></script>
-<script src="../js/toTop.js"></script>
+<script src="../vendor/aos.js"></script>
+<script src="../vendor/toTop.js"></script>
 <script src="../js/data.js "></script>
 
-<script src="../js/cursor/cursor-effects.js"></script>
+<script src="../vendor/cursor/cursor-effects.js"></script>
 <!-- Main JS -->
-<script src="../js/app.min.js "></script>
+<script src="../vendor/app.min.js "></script>
 
 <script type="text/javascript">
-    // console.log(videoMsg);
-
-
     // 传入参数，for循环
     let re = "";
 
     for (let i = videoMsg.length - 1; i >= 0; i--) {
-        re += "<div class=\"single-member effect-3\"><div class=\"member-image\"><img src=\"../img/video/"
-            + videoMsg[i].title +
-            ".jpg\" alt=\"Member\"></div><div class=\"member-info\"><h3>"
-            + videoMsg[i].title +
-            "</h3><h5>"
-            + videoMsg[i].year + '年' +
-            "</h5><p style='height: 88px;overflow: hidden;text-overflow:ellipsis;'>"
-            + videoMsg[i].desc +
-            "</p>" +
-            "<div class=\"social-touch\">" +
-            "                <a class=\"tweet-touch\" href=" + videoMsg[i].title +
-            "\"html/film_article.html?name=\" title='查看详情'><span class=\"lnr lnr-link\"></span></a>\n" +
-            "                <a class=\"video-touch\" href=" + "\"video_detail.html?name=" + videoMsg[i].title +
-            "\" title='查看视频'><span class=\"lnr lnr-film-play\"></span></a>\n" +
-            "            </div>\n" +
-            "        </div>\n" +
-            "    </div>"
+        re += `
+        <div class="single-member effect-3">
+            <div class="member-image">
+                <img src="../assets/img/video/${videoMsg[i].title}.jpg" alt="Member">
+            </div>
+            <div class="member-info">
+                <h3>${videoMsg[i].title}</h3>
+                <h5>${videoMsg[i].year}年</h5>
+                <p style="height: 88px; overflow: hidden; text-overflow: ellipsis;">
+                    ${videoMsg[i].desc}
+                </p>
+                <div class="social-touch">
+                    <a class="tweet-touch" href="film_article.html?name=${videoMsg[i].title}" title="查看详情">
+                        <span class="lnr lnr-link"></span>
+                    </a>
+                    <a class="video-touch" href="video_detail.html?name=${videoMsg[i].title}" title="查看视频">
+                        <span class="lnr lnr-film-play"></span>
+                    </a>
+                </div>
+            </div>
+        </div>`;
     }
     document.getElementById('content').innerHTML = re;
 </script>
