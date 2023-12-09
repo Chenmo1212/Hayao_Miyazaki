@@ -10,7 +10,7 @@
     <a href="https://github.com/Chenmo1212/Hayao_Miyazaki/pulls" target="_blank">
         <img alt="GitHub pull requests" src="https://img.shields.io/github/issues-pr/Chenmo1212/Hayao_Miyazaki" />
     </a>
-    <a href="/"><img src="https://vbr.wocr.tk/badge?page_id=Chenmo1212/Hayao_Miyazaki.visitors&left_color=green&right_color=red" alt="Visitor" /></a>
+    <a href="/"><img src="https://komarev.com/ghpvc/?username=chenmo1212-Hayao-Miyazaki&label=Visitors&base=200" alt="Visitor" /></a>
     <a href="https://github.com/Chenmo1212/Hayao_Miyazaki" target="_blank">
         <img alt="GitHub" src="https://img.shields.io/github/license/Chenmo1212/Hayao_Miyazaki">
     </a>
@@ -30,17 +30,17 @@
     </a>
 </p>
 
-![Snipaste_2023-06-19_00-52-18.png](doc%2FSnipaste_2023-06-19_00-52-18.png)
+![homepage.png](assets%2Fscreenshots%2Fhomepage.png)
 
 ## Description
 
-This is my Portfolio's front-end repository, using the most basic web front-end technologies: `html`, `css` and `javascript`.
+使用原生HTMl，CSS，JS开发的宫崎骏主题网站。初衷是因为大学同学很喜欢宫崎骏，恰逢当时一门课的课设作业就是需要开发一个Web网站。这也是这个网站的由来，是作为一个礼物赠送给同学。
 
-The reason why I don't use any framework is because I adhere to the principle of **"Mastery in fundamentals, diversity in tools"(精于基础，广于工具)**.
+里面涵盖了宫崎骏的基本介绍，**所有的电影原画集**，**所有的电影原声带插曲**，以及**所有的电影资源**。此外还插入了一些周边，电影语录，以及关于宫崎骏电影评价的一些文章。
 
-You can check my Portfolio [here](https://www.chenmo1212.cn?f=github-backend).
-
-And you can find the back-end repository [here](https://www.chenmo1212.cn?f=github-backend)
+- [01 热门电影合集](https://toastpublic-my.sharepoint.com/:f:/g/personal/chenmo_toastpublic_onmicrosoft_com/Emq40fYLB45Kt9tTJS4AqjcBj5tURpNOJ_iLQN2tITTddA?e=yVXPRV)
+- [02 原画集](https://toastpublic-my.sharepoint.com/:f:/g/personal/chenmo_toastpublic_onmicrosoft_com/EutcxbYivuxIvGajG5a9G_oBwuj3O1WGeECrgSBUCTq9cQ?e=3dLeVF)
+- [03 电影原声带插曲](https://toastpublic-my.sharepoint.com/:f:/g/personal/chenmo_toastpublic_onmicrosoft_com/EoFwWhJAtkJFmBLGnH6UK3oBHf5fdzmB1FNrzKTOAsys6g?e=wPOcrx)
 
 ## Installation
 
@@ -57,6 +57,15 @@ And you can find the back-end repository [here](https://www.chenmo1212.cn?f=gith
    ```
 
 3. Then run `index.html` as a local server.
+
+## Screenshots
+![homepage.png](assets%2Fscreenshots%2Fhomepage.png)
+![paintings.png](assets%2Fscreenshots%2Fpaintings.png)
+![music.png](assets%2Fscreenshots%2Fmusic.png)
+![movie.png](assets%2Fscreenshots%2Fmovie.png)
+![works.png](assets%2Fscreenshots%2Fworks.png)
+![article.png](assets%2Fscreenshots%2Farticle.png)
+![about.png](assets%2Fscreenshots%2Fabout.png)
 
 ## Contributing
 Contributions are welcome! Please feel free to submit a pull request or open an issue if you find a bug or have a suggestion for a new feature.
